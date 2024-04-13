@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:background="@color/main_background">
+
+    <FrameLayout
+        android:id="@+id/log_in_layout"
+        android:layout_width="@dimen/activity_confirm_registration_log_in_layout_width"
+        android:layout_height="@dimen/activity_confirm_registration_log_in_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/log_in_layout_margin_left"
+        android:layout_marginLeft="@dimen/log_in_layout_margin_left"
+        android:layout_marginBottom="@dimen/log_in_layout_margin_bottom"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/log_in_layout_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_background" />
+
+        <TextView
+            android:id="@+id/log_in_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/yes_string"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="@dimen/activity_register_activity_screen_1_log_in_textView_textSize" />
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fab"
+        android:layout_marginBottom="@dimen/floatingActionButton_margin_bottom"
+        app:backgroundTint="#E91E63"
+        android:src="@mipmap/ic_arrow_forward_white_48dp"
+        app:fabSize="normal" />
+
+    <FrameLayout
+        android:id="@+id/register_layout"
+        android:layout_width="@dimen/activity_confirm_registration_log_in_layout_width"
+        android:layout_height="@dimen/activity_confirm_registration_log_in_layout_height"
+        android:layout_alignTop="@+id/log_in_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/register_layout_margin_right"
+        android:layout_marginRight="@dimen/register_layout_margin_right"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/register_layout_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_background" />
+
+        <TextView
+            android:id="@+id/register_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_string"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/activity_register_activity_screen_1_register_textView_textSize" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_confirm_registration_header_image_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_register_activity_screen_1_header_image_margin"
+        android:src="@drawable/hart_logo" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/layout_center" />
+
+    <TextView
+        android:id="@+id/subTitle_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/register_screen1_textView_marginLeftRight"
+
+        android:layout_marginLeft="@dimen/register_screen1_textView_marginLeftRight"
+        android:layout_marginEnd="@dimen/register_screen1_textView_marginLeftRight"
+        android:layout_marginRight="@dimen/register_screen1_textView_marginLeftRight"
+        android:gravity="center"
+        android:text="@string/do_you_want_register_as_a_host"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="@dimen/register_screen1_textView_size" />
+
+</RelativeLayout>

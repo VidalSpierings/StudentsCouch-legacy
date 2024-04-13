@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custom_dialog_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/custom_dialog_custom_dialog_textView_margin_leftRight"
+        android:layout_marginTop="@dimen/custom_dialog_custom_dialog_textView_margin_top"
+        android:layout_marginRight="@dimen/custom_dialog_custom_dialog_textView_margin_leftRight"
+        android:gravity="center"
+        android:text="is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken."
+        android:textColor="@color/textColorTertiary"
+        android:textSize="@dimen/custom_dialog_custom_dialog_textView_textSize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_line_height"
+        android:layout_marginTop="@dimen/custom_dialog_custom_dialog_view_margin_top"
+        android:layout_gravity="bottom"
+        android:background="@color/bottom_line_color" />
+
+</LinearLayout>

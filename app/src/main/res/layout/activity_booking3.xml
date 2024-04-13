@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eiffel_tower_small"
+    tools:context=".ui.BookingActivity3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backgroundImage"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_booking3_relativeLayout_margin"
+        android:background="@color/item_background">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bottom_line_color" />
+
+        <TextView
+            android:id="@+id/your_booking_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_booking3_your_booking_textView_margin_leftRight"
+            android:layout_marginTop="@dimen/activity_booking3_your_booking_textView_margin_top"
+            android:layout_marginRight="@dimen/activity_booking3_your_booking_textView_margin_leftRight"
+            android:gravity="center"
+            android:text="@string/your_booking"
+            android:textColor="@color/textColorTertiary"
+            android:textSize="@dimen/activity_booking3_your_booking_textView_textSize" />
+
+        <TextView
+            android:id="@+id/price_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_booking3_your_booking_textView_margin_leftRight"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="@dimen/activity_booking3_your_booking_textView_margin_leftRight"
+            android:gravity="center"
+            android:layout_below="@+id/your_booking_textView"
+            android:text="0"
+            android:textColor="@color/price_color"
+            android:textSize="@dimen/activity_booking3_your_booking_textView_textSize" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/amount_of_nights_textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_booking3_amount_of_nights_textView2_margin_rightLeft"
+                android:layout_marginTop="@dimen/activity_booking3_amount_of_nights_textView2_margin_top"
+                android:layout_marginRight="@dimen/activity_booking3_amount_of_nights_textView2_margin_rightLeft"
+                android:gravity="center"
+                android:text="@string/arrival_date"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/activity_booking3_amount_of_nights_textView2_margin_textSize" />
+
+            <FrameLayout
+                android:id="@+id/date_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/activity_booking3_date_layout_height"
+                android:layout_below="@+id/amount_of_nights_textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/activity_booking3_date_layout_margin_top"
+                android:layout_weight="1"
+                android:background="@color/main_background">
+
+                <TextView
+                    android:id="@+id/one_textView_nights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/activity_booking3_one_textView_nights_margin_leftRight"
+                    android:layout_marginRight="@dimen/activity_booking3_one_textView_nights_margin_leftRight"
+                    android:gravity="center"
+                    android:text="28 december 2018"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/activity_booking3_one_textView_nights_margin_textSize" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/amount_of_people_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date_layout"
+                android:layout_marginTop="@dimen/activity_booking3_amount_of_people_textView_margin_top"
+                android:gravity="center"
+                android:text="@string/amount_of_people"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/activity_booking3_amount_of_people_textView_margin_textSize" />
+
+            <FrameLayout
+                android:id="@+id/amount_of_people_layout"
+                android:layout_width="@dimen/activity_booking3_amount_of_people_layout_width"
+                android:layout_height="@dimen/activity_booking3_amount_of_people_layout_height"
+                android:layout_below="@+id/amount_of_people_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/activity_booking3_amount_of_people_layout_margin_top"
+                android:background="@color/main_background">
+
+                <TextView
+                    android:id="@+id/amount_of_people_layout_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/activity_booking3_amount_of_people_layout_textView_margin_leftRight"
+                    android:layout_marginRight="@dimen/activity_booking3_amount_of_people_layout_textView_margin_leftRight"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/activity_booking3_amount_of_people_layout_textView_textSize" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/amount_of_nights_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/amount_of_people_layout"
+                android:layout_marginTop="@dimen/activity_booking3_amount_of_nights_textView_margin_top"
+                android:gravity="center"
+                android:text="@string/amount_of_nights"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/activity_booking3_amount_of_nights_textView_textSize" />
+
+            <FrameLayout
+                android:id="@+id/num_nights_layout"
+                android:layout_width="@dimen/activity_booking3_num_nights_layout_width"
+                android:layout_height="@dimen/activity_booking3_num_nights_layout_height"
+                android:layout_below="@+id/amount_of_nights_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/activity_booking3_num_nights_layout_margin_top"
+                android:background="@color/main_background">
+
+                <TextView
+                    android:id="@+id/num_nights_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/activity_booking3_num_nights_textView_margin_leftRight"
+                    android:layout_marginRight="@dimen/activity_booking3_num_nights_textView_margin_leftRight"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/activity_booking3_num_nights_textView_margin_textSize" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/floatingActionButton_margin_bottom"
+            android:clickable="true"
+            android:src="@mipmap/ic_arrow_forward_white_48dp"
+            app:backgroundTint="#E91E63"
+            app:fabSize="mini" />
+
+        <View
+            android:id="@+id/fab_replacement_view"
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/activity_booking2_fab_replacement_view_marginBottom" />
+
+    </RelativeLayout>
+
+</FrameLayout>

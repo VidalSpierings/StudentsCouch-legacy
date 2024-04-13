@@ -1,0 +1,989 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+
+    <dimen name="activity_main_log_in_layout_width">186sp</dimen>
+    <dimen name="activity_main_log_in_layout_height">84sp</dimen>
+    <dimen name="activity_main_log_in_textView_textSize">35sp</dimen>
+    <dimen name="activity_main_subTitle_textView_textSize">35sp</dimen>
+    <dimen name="activity_main_register_layout_width">186sp</dimen>
+    <dimen name="activity_main_register_layout_height">84sp</dimen>
+    <dimen name="activity_main_header_image">125sp</dimen>
+    <dimen name="activity_main_register_layout_margin_top">5sp</dimen>
+    <dimen name="activity_main_bug_textView_margin_leftRight">10sp</dimen>
+    <dimen name="activity_main_bug_textView_margin_top">30sp</dimen>
+    <dimen name="activity_main_bug_textView2_textSize">20sp</dimen>
+
+    <dimen name="activity_apartement_edit_letter_count_textView_padding">5sp</dimen>
+
+    <dimen name="activity_booking_month_year_textView_textSize">20sp</dimen>
+
+    <dimen name="activity_booking_choose_date_layout_margin_top">30sp</dimen>
+
+    <dimen name="activity_booking_2_eight_to_six_framelayout_margin_left_right">5sp</dimen>
+
+    <dimen name="activity_confirm_registration_firstName_view_textView_textSize">20sp</dimen>
+
+    <dimen name="activity_confirm_registration_email_textView_textSize">20sp</dimen>
+
+    <dimen name="activity_confirm_registration_description_view_margin_left_right">75sp</dimen>
+
+    <dimen name="activity_custom_dialog_no_internet_connection_descripton_textView_margin_top">20sp</dimen>
+
+    <dimen name="activity_custom_dialog_no_internet_connection_descripton_textView_margin_bottom">20sp</dimen>
+
+    <dimen name="activity_custom_dialog_no_internet_connection_bottom_line_book_now_layout_margin_top">10sp</dimen>
+
+    <dimen name="activity_login_checkBox3_width_height">25sp</dimen>
+
+    <dimen name="activity_login_automatic_log_in_textView">25sp</dimen>
+
+    <dimen name="activity_login_error_message_margin_left_right">30sp</dimen>
+
+    <dimen name="activity_login_header_image_margin_all">10sp</dimen>
+
+    <dimen name="activity_main_error_textView_margin_top_2">20sp</dimen>
+
+    <dimen name="activity_payment_finished_scrollbar_height">400sp</dimen>
+
+    <dimen name="activity_payment_subleased_nights_layout_height_2">400sp</dimen>
+
+    <dimen name="activity_payment_transaction_id_textView_margin_all">10sp</dimen>
+
+    <dimen name="activity_payment_transaction_id_textView_textSize">23sp</dimen>
+
+    <dimen name="activity_payment_congratulations_description_padding">10sp</dimen>
+
+    <dimen name="activity_place_selection_dialog_main_layout">50sp</dimen>
+
+    <dimen name="activity_place_selection_dialog_descripton_textView_margin_top">10sp</dimen>
+
+    <dimen name="activity_place_selection_dialog_relativeLayout_height">80sp</dimen>
+
+    <dimen name="activity_register_screen_2_scrollView_margin_bottom">25sp</dimen>
+
+    <dimen name="activity_register_screen_2_firstName_textView_padding_left">20sp</dimen>
+
+    <dimen name="activity_register_screen_2_gender_birthdate_layout_margin_top">10sp</dimen>
+
+    <dimen name="activity_register_screen_2_scrollview_2_margin_bottom">20sp</dimen>
+
+    <dimen name="activity_register_screen_2_firstName_layout_margin_top">15sp</dimen>
+
+    <dimen name="activity_settings_become_a_host_layout_height">110sp</dimen>
+
+    <dimen name="activity_settings_become_a_host_margin_top">40sp</dimen>
+
+    <dimen name="activity_startup_item_layout_width">170sp</dimen>
+
+    <dimen name="activity_startup_item_layout_height">285sp</dimen>
+
+    <dimen name="activity_startup_textView_textSize">20sp</dimen>
+
+    <dimen name="circle_width_height">100sp</dimen>
+
+    <dimen name="city_item_textView_textSize">100sp</dimen>
+
+    <dimen name="content_register_activity_screen_4_margin_bottom">40sp</dimen>
+
+    <dimen name="custom_dialog_accepted_2_relativeLayout_height">80sp</dimen>
+
+    <dimen name="custom_dialog_guest_booking_frameLayout_width_height">100sp</dimen>
+
+    <dimen name="custom_dialog_guest_booking_main_layout_margin">50sp</dimen>
+
+    <dimen name="custom_dialog_guest_booking_frameLayout_margin_top">10sp</dimen>
+
+    <dimen name="custom_dialog_guest_booking_descripton_textView_margin_top">10sp</dimen>
+
+    <dimen name="custom_dialog_guest_booking_happy_emoji_layout_width_height">50sp</dimen>
+
+    <dimen name="custom_dialog_guest_booking_unhappy_emoji_layout_width_height">50sp</dimen>
+
+    <dimen name="custom_dialog_with_button_bottom_line_book_now_layout_margin_bottom_margin_top">10sp</dimen>
+
+    <dimen name="dialog_date_linearLayout_height">529sp</dimen>
+
+    <dimen name="dialog_date_yearTextView_margin_top">15sp</dimen>
+
+    <dimen name="dialog_date_yearTextView_textSize">25sp</dimen>
+
+    <dimen name="top_item_top_item_layout_height_2">325sp</dimen>
+
+    <dimen name="bottom_line_height">2sp</dimen>
+
+    <dimen name="text_size_yes_no_button">60dp</dimen>
+
+    <dimen name="activity_register_yes_screen_3_margin_bottom">40sp</dimen>
+
+    <dimen name="activity_startup_select_city_village_textView_margin_end_start">30sp</dimen>
+
+    <dimen name="loginActivity_header_image_width">125sp</dimen>
+    <dimen name="loginActivity_header_image_height">125sp</dimen>
+    <dimen name="loginActivity_header_image_margin">10sp</dimen>
+
+    <dimen name="floatingActionButton_margin_bottom">16sp</dimen>
+
+    <dimen name="password_layout_margin_top">30sp</dimen>
+
+    <dimen name="password_textView_height">60sp</dimen>
+    <dimen name="password_textView_size">20sp</dimen>
+    <dimen name="password_textView_margin_right">10sp</dimen>
+    <dimen name="password_textView_padding_right">20sp</dimen>
+
+    <dimen name="username_textView_padding_right">20sp</dimen>
+    <dimen name="username_textView_margin_right">10sp</dimen>
+    <dimen name="username_textView_textSize">20sp</dimen>
+    <dimen name="username_textView_height">60sp</dimen>
+
+    <dimen name="edittext_margin_right">10sp</dimen>
+    <dimen name="edittext_height">50sp</dimen>
+
+    <dimen name="edittext2_margin_right">10sp</dimen>
+    <dimen name="edittext2_height">50sp</dimen>
+
+    <dimen name="automatic_log_in_textView_textSize">15sp</dimen>
+    <dimen name="automatic_log_in_textView_padding_right">5sp</dimen>
+    <dimen name="automatic_log_in_textView_margin_top">20sp</dimen>
+
+    <dimen name="fingerprint_image_padding_top">20sp</dimen>
+    <dimen name="fingerprint_image_padding_bottom">20sp</dimen>
+
+    <dimen name="checkBox3_width">25sp</dimen>
+    <dimen name="checkBox3_height">25sp</dimen>
+    <dimen name="checkBox3_margin_right">10sp</dimen>
+    <dimen name="checkBox3_margin_top">20sp</dimen>
+
+    <dimen name="log_in_layout_width">186sp</dimen>
+    <dimen name="log_in_layout_height">84sp</dimen>
+    <dimen name="log_in_layout_margin_left">10sp</dimen>
+    <dimen name="log_in_layout_margin_bottom">90sp</dimen>
+
+    <dimen name="log_in_textView_textSize">35sp</dimen>
+
+    <dimen name="register_layout_width">186sp</dimen>
+    <dimen name="register_layout_height">84sp</dimen>
+    <dimen name="register_layout_margin_right">10sp</dimen>
+    <dimen name="register_layout_margin_bottom">90sp</dimen>
+
+    <dimen name="register_textView_textSize">35sp</dimen>
+
+    <dimen name="mainActivity_header_image_margin_top">20sp</dimen>
+    <dimen name="mainActivity_header_image_width">125sp</dimen>
+    <dimen name="mainActivity_header_image_height">125sp</dimen>
+
+
+    <dimen name="pb_textView_textSize">37.5sp</dimen>
+
+    <dimen name="pb_textView_margin_left">20sp</dimen>
+    <dimen name="pb_textView_margin_right">20sp</dimen>
+    <dimen name="pb_textView_margin_top">20sp</dimen>
+
+    <dimen name="error_message_textSize">20sp</dimen>
+    <dimen name="error_message_marginBottom">30sp</dimen>
+    <dimen name="error_message_marginLeft">30sp</dimen>
+    <dimen name="error_message_marginRight">30sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="register_screen1_textView_textSize">30sp</dimen>
+    <dimen name="register_screen1_yes_no_button_textSize">50sp</dimen>
+    <dimen name="register_screen1_textView_size">27.5sp</dimen>
+    <dimen name="register_screen1_textView_marginLeftRight">20sp</dimen>
+
+    <dimen name="activity_apartement_scrollView_margin">40sp</dimen>
+    <dimen name="activity_apartement_top_item_height">300sp</dimen>
+    <dimen name="activity_apartement_togglebutton_width_height">30sp</dimen>
+    <dimen name="activity_apartement_togglebutton_margin">5sp</dimen>
+    <dimen name="activity_apartement_slideDotsPanel_width">40sp</dimen>
+    <dimen name="activity_apartement_slideDotsPanel_height">15sp</dimen>
+    <dimen name="activity_apartement_slideDotsPanel_margin">7sp</dimen>
+    <dimen name="activity_apartement_edit_frameLayout_width_height">40sp</dimen>
+    <dimen name="activity_apartement_edit_frameLayout_marginRight">7sp</dimen>
+    <dimen name="activity_apartement_edit_imageView_width_height">30sp</dimen>
+    <dimen name="activity_subleased_nights_layout_height">100sp</dimen>
+    <dimen name="activity_subleased_nights_layout_margin_top">40sp</dimen>
+    <dimen name="activity_subleased_nights_num_days_textSize">25sp</dimen>
+    <dimen name="activity_subleased_description_textSize">15sp</dimen>
+    <dimen name="activity_apartement_description_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_description_title_textSize">20sp</dimen>
+    <dimen name="activity_apartement_description_title_margin">5sp</dimen>
+    <dimen name="activity_apartement_description_margin_bottom">10sp</dimen>
+    <dimen name="activity_apartement_description_textSize">15sp</dimen>
+    <dimen name="activity_apartement_description_padding">5sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_layout_height">150sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_desc_textView_textSize">25sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_desc_textView_margin">5sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_num_layout_height">110sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_num_margin_bottom">15sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_num_textSize">25sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_num_textView_margin_leftRight">30sp</dimen>
+    <dimen name="activity_apartement_num_people_per_stay_num_textView_textSize">20sp</dimen>
+    <dimen name="activity_apartement_rating_layout_height">125sp</dimen>
+    <dimen name="activity_apartement_rating_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_rating_imageView_margin_top">10sp</dimen>
+    <dimen name="activity_apartement_rating_imageView_margin_rightLeft">5sp</dimen>
+    <dimen name="activity_apartement_rating_imageView_margin_textSize">20sp</dimen>
+    <dimen name="activity_apartement_num_ratings_margin_bottom">10sp</dimen>
+    <dimen name="activity_apartement_num_ratings_padding_bottom">5sp</dimen>
+    <dimen name="activity_apartement_num_ratings_textSize">16sp</dimen>
+    <dimen name="activity_apartement_streetname_layout_height">100sp</dimen>
+    <dimen name="activity_apartement_streetname_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_streetname_text_margin_bottom">10sp</dimen>
+    <dimen name="activity_apartement_streetname_text_textSize">25sp</dimen>
+    <dimen name="activity_apartement_gmaps_layout_height">100sp</dimen>
+    <dimen name="activity_apartement_gmaps_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_gmaps_imageView_widthHeight">100sp</dimen>
+    <dimen name="activity_apartement_gmaps_imageView_margin_bottom">10sp</dimen>
+    <dimen name="activity_apartement_gmaps_imageView_textSize">25sp</dimen>
+    <dimen name="activity_apartement_gmaps_text_margin">5sp</dimen>
+    <dimen name="activity_apartement_gmaps_text_textSize">25sp</dimen>
+    <dimen name="activity_apartement_book_now_layout_height">150sp</dimen>
+    <dimen name="activity_apartement_book_now_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_price_text_margin">5sp</dimen>
+    <dimen name="activity_apartement_price_text_textSize">25sp</dimen>
+    <dimen name="activity_apartement_book_now_button_layout_height">110sp</dimen>
+    <dimen name="activity_apartement_book_now_button_layout_margin_bottom">15sp</dimen>
+    <dimen name="activity_apartement_book_now_button_layout_textSize">25sp</dimen>
+    <dimen name="activity_apartement_book_now_textView_margin_leftRight">30sp</dimen>
+    <dimen name="activity_apartement_book_now_textView_textSize">20sp</dimen>
+
+    <dimen name="activity_apartement_edit_scrollView_margin">40sp</dimen>
+    <dimen name="activity_apartement_edit_top_item_layout_height">300sp</dimen>
+    <dimen name="activity_apartement_edit_slideDotsPanel_width">40sp</dimen>
+    <dimen name="activity_apartement_edit_slideDotsPanel_height">15sp</dimen>
+    <dimen name="activity_apartement_edit_slideDotsPanel_margin_bottom">7sp</dimen>
+    <dimen name="activity_apartement_edit_add_image_layout_widthHeight">40sp</dimen>
+    <dimen name="activity_apartement_edit_add_image_layout_margin_right">5sp</dimen>
+    <dimen name="activity_apartement_edit_add_imageView_widthHeight">30sp</dimen>
+    <dimen name="activity_apartement_edit_delete_image_layout_widthHeight">40sp</dimen>
+    <dimen name="activity_apartement_edit_delete_image_layout_margin_right">5sp</dimen>
+    <dimen name="activity_apartement_edit_delete_imageView_widthHeight">30sp</dimen>
+    <dimen name="activity_apartement_edit_description_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_edit_description_title_margin">5sp</dimen>
+    <dimen name="activity_apartement_edit_description_title_textSize">20sp</dimen>
+    <dimen name="activity_apartement_edit_letter_count_textView_margin_right">5sp</dimen>
+    <dimen name="activity_apartement_edit_description_description_margin_bottom">10sp</dimen>
+    <dimen name="activity_apartement_edit_description_description_padding">5sp</dimen>
+    <dimen name="activity_apartement_edit_description_description_textSize">15sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_layout_height">150sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_desc_textView_margin">5sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_desc_textView_textSize">25sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_num_layout_height">110sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_num_layout_margin_bottom">15sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_num_layout_textSize">25sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_num_editText_margin_leftRight">30sp</dimen>
+    <dimen name="activity_apartement_edit_num_people_per_stay_num_editText_textSize">20sp</dimen>
+    <dimen name="activity_apartement_edit_price_per_night_layout_height">80sp</dimen>
+    <dimen name="activity_apartement_edit_price_per_night_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_edit_currency_text_margin_top">5sp</dimen>
+    <dimen name="activity_apartement_edit_currency_text_margin_right">10sp</dimen>
+    <dimen name="activity_apartement_edit_currency_text_margin_bottom">5sp</dimen>
+    <dimen name="activity_apartement_edit_currency_text_textSize">25sp</dimen>
+    <dimen name="activity_apartement_edit_price_per_night_editText_margin_top">5sp</dimen>
+    <dimen name="activity_apartement_edit_price_per_night_editText_margin_bottom">5sp</dimen>
+    <dimen name="activity_apartement_edit_price_per_night_editText_textSize">25sp</dimen>
+    <dimen name="activity_apartement_edit_per_night_textView_margin_left">10sp</dimen>
+    <dimen name="activity_apartement_edit_per_night_textView_margin_top">5sp</dimen>
+    <dimen name="activity_apartement_edit_per_night_textView_margin_bottom">5sp</dimen>
+    <dimen name="activity_apartement_edit_per_night_textView_textSize">25sp</dimen>
+    <dimen name="activity_apartement_edit_save_data_item_layout_height">70sp</dimen>
+    <dimen name="activity_apartement_edit_save_data_item_layout_margin_top">40sp</dimen>
+    <dimen name="activity_apartement_edit_save_data2_item_layout_height">50sp</dimen>
+    <dimen name="activity_apartement_edit_save_data2_item_layout_margin_top">15sp</dimen>
+    <dimen name="activity_apartement_edit_save_data2_item_layout_textSize">25sp</dimen>
+    <dimen name="activity_apartement_edit_save_data_textView_margin_leftRight">20sp</dimen>
+    <dimen name="activity_apartement_edit_save_data_textView_textSize">20sp</dimen>
+
+    <dimen name="activity_booking_relativeLayout_margin">30sp</dimen>
+    <dimen name="activity_booking_arrival_date_textView_textSize">25sp</dimen>
+    <dimen name="activity_booking_arrival_date_textView_margin_leftRight">5sp</dimen>
+    <dimen name="activity_booking_arrival_date_textView_margin_top">20sp</dimen>
+    <dimen name="activity_booking_arrival_month_year_textView_margin_leftRight">5sp</dimen>
+    <dimen name="activity_booking_arrival_month_year_textView_margin_top">15sp</dimen>
+    <dimen name="activity_booking_scrollView_margin_rightLeft">10sp</dimen>
+    <dimen name="activity_booking_scrollView_margin_top">5sp</dimen>
+    <dimen name="activity_booking_scrollView_margin_bottom">15sp</dimen>
+    <dimen name="activity_booking_date_textView_marginTop">20sp</dimen>
+    <dimen name="activity_booking_scrollView_textSize">30sp</dimen>
+    <dimen name="activity_booking_choose_date_layout_width">175sp</dimen>
+    <dimen name="activity_booking_choose_date_layout_height">50sp</dimen>
+    <dimen name="activity_booking_choose_date_layout_textSize">25sp</dimen>
+    <dimen name="activity_booking_choose_date_textView_textSize">20sp</dimen>
+    <dimen name="activity_booking_dates_booked_textView_margin_top">30sp</dimen>
+    <dimen name="activity_booking_dates_booked_textView_textSize">15sp</dimen>
+    <dimen name="activity_booking_dates_layout_margin_top">10sp</dimen>
+    <dimen name="activity_booking2_relativeLayout_margin">30sp</dimen>
+    <dimen name="activity_booking2_fab_margin">16sp</dimen>
+    <dimen name="activity_booking2_your_booking_textView_marginLeft">5sp</dimen>
+    <dimen name="activity_booking2_your_booking_textView_textSize">25sp</dimen>
+    <dimen name="activity_booking2_amount_of_people_textView_marginLeft">5sp</dimen>
+    <dimen name="activity_booking2_amount_of_people_textView_marginRight">5sp</dimen>
+    <dimen name="activity_booking2_amount_of_people_textView_margin_top">15sp</dimen>
+    <dimen name="activity_booking2_amount_of_people_textView_textSize">25sp</dimen>
+    <dimen name="activity_booking2_numbersLayout_height">50sp</dimen>
+    <dimen name="activity_booking2_numbersLayout_margin_leftRight">12sp</dimen>
+    <dimen name="activity_booking2_numbersLayout_margin_top">10sp</dimen>
+    <dimen name="activity_booking2_1">8sp</dimen>
+    <dimen name="activity_booking2_2">8sp</dimen>
+    <dimen name="activity_booking2_3">25sp</dimen>
+    <dimen name="activity_booking2_4">8sp</dimen>
+    <dimen name="activity_booking2_5">8sp</dimen>
+    <dimen name="activity_booking2_6">25sp</dimen>
+    <dimen name="activity_booking2_7">8sp</dimen>
+    <dimen name="activity_booking2_8">8sp</dimen>
+    <dimen name="activity_booking2_9">25sp</dimen>
+    <dimen name="activity_booking2_10">8sp</dimen>
+    <dimen name="activity_booking2_11">8sp</dimen>
+    <dimen name="activity_booking2_12">25sp</dimen>
+    <dimen name="activity_booking2_13">8sp</dimen>
+    <dimen name="activity_booking2_14">8sp</dimen>
+    <dimen name="activity_booking2_15">25sp</dimen>
+    <dimen name="activity_booking2_16">8sp</dimen>
+    <dimen name="activity_booking2_17">8sp</dimen>
+    <dimen name="activity_booking2_18">25sp</dimen>
+    <dimen name="activity_booking2_19">8sp</dimen>
+    <dimen name="activity_booking2_20">8sp</dimen>
+    <dimen name="activity_booking2_21">25sp</dimen>
+    <dimen name="activity_booking2_22">8sp</dimen>
+    <dimen name="activity_booking2_23">8sp</dimen>
+    <dimen name="activity_booking2_24">25sp</dimen>
+    <dimen name="activity_booking2_25">8sp</dimen>
+    <dimen name="activity_booking2_26">8sp</dimen>
+    <dimen name="activity_booking2_27">25sp</dimen>
+    <dimen name="activity_booking2_28">8sp</dimen>
+    <dimen name="activity_booking2_29">8sp</dimen>
+    <dimen name="activity_booking2_30">25sp</dimen>
+    <dimen name="activity_booking2_31">8sp</dimen>
+    <dimen name="activity_booking2_32">8sp</dimen>
+    <dimen name="activity_booking2_33">25sp</dimen>
+    <dimen name="activity_booking2_34">8sp</dimen>
+    <dimen name="activity_booking2_35">8sp</dimen>
+    <dimen name="activity_booking2_36">25sp</dimen>
+    <dimen name="activity_booking2_37">8sp</dimen>
+    <dimen name="activity_booking2_38">8sp</dimen>
+    <dimen name="activity_booking2_39">8sp</dimen>
+    <dimen name="activity_booking2_40">8sp</dimen>
+    <dimen name="activity_booking2_41">25sp</dimen>
+    <dimen name="activity_booking2_42">8sp</dimen>
+    <dimen name="activity_booking2_43">8sp</dimen>
+    <dimen name="activity_booking2_44">25sp</dimen>
+    <dimen name="activity_booking2_45">8sp</dimen>
+    <dimen name="activity_booking2_46">8sp</dimen>
+    <dimen name="activity_booking2_num_people_layout_height">50sp</dimen>
+    <dimen name="activity_booking2_10sp">10sp</dimen>
+    <dimen name="activity_booking2_num_people_layout_margin_top">10sp</dimen>
+    <dimen name="activity_booking2_one_layout_margin_leftRight">20sp</dimen>
+    <dimen name="activity_booking2_one_textView_textSize">30sp</dimen>
+    <dimen name="activity_booking2_two_layout_margin_leftRight">20sp</dimen>
+    <dimen name="activity_booking2_two_textView_textSize">30sp</dimen>
+    <dimen name="activity_booking2_fab_replacement_view_marginBottom">60sp</dimen>
+
+    <dimen name="activity_booking3_relativeLayout_margin">30sp</dimen>
+    <dimen name="activity_booking3_your_booking_textView_margin_leftRight">5sp</dimen>
+    <dimen name="activity_booking3_your_booking_textView_margin_top">20sp</dimen>
+    <dimen name="activity_booking3_your_booking_textView_textSize">30sp</dimen>
+    <dimen name="activity_booking3_amount_of_nights_textView2_margin_rightLeft">5sp</dimen>
+    <dimen name="activity_booking3_amount_of_nights_textView2_margin_top">20sp</dimen>
+    <dimen name="activity_booking3_amount_of_nights_textView2_margin_textSize">25sp</dimen>
+    <dimen name="activity_booking3_date_layout_height">50sp</dimen>
+    <dimen name="activity_booking3_date_layout_margin_top">10sp</dimen>
+    <dimen name="activity_booking3_one_textView_nights_margin_leftRight">5sp</dimen>
+    <dimen name="activity_booking3_one_textView_nights_margin_textSize">25sp</dimen>
+    <dimen name="activity_booking3_amount_of_people_textView_margin_top">15sp</dimen>
+    <dimen name="activity_booking3_amount_of_people_textView_margin_textSize">25sp</dimen>
+    <dimen name="activity_booking3_amount_of_people_layout_width">90sp</dimen>
+    <dimen name="activity_booking3_amount_of_people_layout_height">50sp</dimen>
+    <dimen name="activity_booking3_amount_of_people_layout_margin_top">10sp</dimen>
+    <dimen name="activity_booking3_amount_of_people_layout_textView_margin_leftRight">5sp</dimen>
+    <dimen name="activity_booking3_amount_of_people_layout_textView_textSize">25sp</dimen>
+    <dimen name="activity_booking3_amount_of_nights_textView_margin_top">15sp</dimen>
+    <dimen name="activity_booking3_amount_of_nights_textView_textSize">25sp</dimen>
+    <dimen name="activity_booking3_num_nights_layout_width">50sp</dimen>
+    <dimen name="activity_booking3_num_nights_layout_height">50sp</dimen>
+    <dimen name="activity_booking3_num_nights_layout_margin_top">10sp</dimen>
+    <dimen name="activity_booking3_num_nights_textView_margin_leftRight">5sp</dimen>
+    <dimen name="activity_booking3_num_nights_textView_margin_textSize">25sp</dimen>
+
+    <dimen name="activity_city_no_listings_frameLayout_margin">30sp</dimen>
+    <dimen name="activity_city_no_listings_textView_margin_leftRight">10sp</dimen>
+    <dimen name="activity_city_no_listings_textView_margin_top">20sp</dimen>
+    <dimen name="activity_city_no_listings_textView_margin_bottom">20sp</dimen>
+    <dimen name="activity_city_no_listings_textView_margin_textSize">16sp</dimen>
+    <dimen name="activity_city_recyclerView_margin_leftRight">50sp</dimen>
+    <dimen name="activity_city_recyclerView_margin_top">50sp</dimen>
+    <dimen name="activity_city_recyclerView_margin_bottom">20sp</dimen>
+
+    <dimen name="activity_confirm_registration_header_image_height">120sp</dimen>
+    <dimen name="activity_confirm_registration_header_image_margin_top">10sp</dimen>
+    <dimen name="activity_confirm_registration_error_textView_margin_top">5sp</dimen>
+    <dimen name="activity_confirm_registration_log_in_layout_width">186sp</dimen>
+    <dimen name="activity_confirm_registration_log_in_layout_height">84sp</dimen>
+    <dimen name="activity_confirm_registration_log_in_layout_margin_bottom">89dp</dimen>
+    <dimen name="activity_confirm_registration_log_in_textView_textSize">35sp</dimen>
+    <dimen name="activity_confirm_registration_scrollView_margin_bottom">10sp</dimen>
+    <dimen name="activity_confirm_registration_scrollView_margin_top">5sp</dimen>
+    <dimen name="activity_confirm_registration_firstName_textView_textSize">20sp</dimen>
+    <dimen name="activity_confirm_registration_firstName_view_margin_leftRightTop">10sp</dimen>
+    <dimen name="activity_confirm_registration_firstName_view_textView_margin">10sp</dimen>
+    <dimen name="activity_confirm_registration_1">10sp</dimen>
+    <dimen name="activity_confirm_registration_2">20sp</dimen>
+    <dimen name="activity_confirm_registration_3">10sp</dimen>
+    <dimen name="activity_confirm_registration_4">10sp</dimen>
+    <dimen name="activity_confirm_registration_5">20sp</dimen>
+    <dimen name="activity_confirm_registration_6">10sp</dimen>
+    <dimen name="activity_confirm_registration_7">10sp</dimen>
+    <dimen name="activity_confirm_registration_8">10sp</dimen>
+    <dimen name="activity_confirm_registration_9">20sp</dimen>
+    <dimen name="activity_confirm_registration_10">10sp</dimen>
+    <dimen name="activity_confirm_registration_11">20sp</dimen>
+    <dimen name="activity_confirm_registration_12">10sp</dimen>
+    <dimen name="activity_confirm_registration_13">10sp</dimen>
+    <dimen name="activity_confirm_registration_14">20sp</dimen>
+    <dimen name="activity_confirm_registration_15">10sp</dimen>
+    <dimen name="activity_confirm_registration_16">20sp</dimen>
+    <dimen name="activity_confirm_registration_17">50sp</dimen>
+    <dimen name="activity_confirm_registration_18">10sp</dimen>
+    <dimen name="activity_confirm_registration_19">10sp</dimen>
+    <dimen name="activity_confirm_registration_20">20sp</dimen>
+    <dimen name="activity_confirm_registration_21">10sp</dimen>
+    <dimen name="activity_confirm_registration_22">10sp</dimen>
+    <dimen name="activity_confirm_registration_23">20sp</dimen>
+    <dimen name="activity_confirm_registration_24">10sp</dimen>
+    <dimen name="activity_confirm_registration_25">20sp</dimen>
+    <dimen name="activity_confirm_registration_26">100sp</dimen>
+    <dimen name="activity_confirm_registration_27">10sp</dimen>
+    <dimen name="activity_confirm_registration_28">20sp</dimen>
+    <dimen name="activity_confirm_registration_29">30sp</dimen>
+    <dimen name="activity_confirm_registration_30">20sp</dimen>
+    <dimen name="activity_confirm_registration_31">20sp</dimen>
+    <dimen name="activity_confirm_registration_32">100sp</dimen>
+    <dimen name="activity_confirm_registration_33">10sp</dimen>
+    <dimen name="activity_confirm_registration_34">100sp</dimen>
+    <dimen name="activity_confirm_registration_35">10sp</dimen>
+    <dimen name="activity_confirm_registration_36">10sp</dimen>
+    <dimen name="activity_confirm_registration_37">20sp</dimen>
+    <dimen name="activity_confirm_registration_38">10sp</dimen>
+    <dimen name="activity_confirm_registration_39">10sp</dimen>
+    <dimen name="activity_confirm_registration_textSize">20sp</dimen>
+    <dimen name="activity_confirm_registration_40">10sp</dimen>
+    <dimen name="activity_confirm_registration_41">20sp</dimen>
+    <dimen name="activity_confirm_registration_42">10sp</dimen>
+    <dimen name="activity_confirm_registration_43">10sp</dimen>
+    <dimen name="activity_confirm_registration_44">20sp</dimen>
+    <dimen name="activity_confirm_registration_45">10sp</dimen>
+    <dimen name="activity_confirm_registration_46">20sp</dimen>
+    <dimen name="activity_confirm_registration_47">10sp</dimen>
+    <dimen name="activity_confirm_registration_48">10sp</dimen>
+    <dimen name="activity_confirm_registration_49">20sp</dimen>
+    <dimen name="activity_confirm_registration_50">10sp</dimen>
+    <dimen name="activity_confirm_registration_51">20sp</dimen>
+    <dimen name="activity_confirm_registration_52">10sp</dimen>
+    <dimen name="activity_confirm_registration_53">10sp</dimen>
+    <dimen name="activity_confirm_registration_54">20sp</dimen>
+    <dimen name="activity_confirm_registration_55">10sp</dimen>
+    <dimen name="activity_confirm_registration_56">20sp</dimen>
+    <dimen name="activity_confirm_registration_57">10sp</dimen>
+    <dimen name="activity_confirm_registration_58">10sp</dimen>
+    <dimen name="activity_confirm_registration_59">20sp</dimen>
+    <dimen name="activity_confirm_registration_60">10sp</dimen>
+    <dimen name="activity_confirm_registration_61">20sp</dimen>
+    <dimen name="activity_confirm_registration_62">10sp</dimen>
+    <dimen name="activity_confirm_registration_63">150sp</dimen>
+    <dimen name="activity_confirm_registration_64">10sp</dimen>
+    <dimen name="activity_confirm_registration_65">20sp</dimen>
+    <dimen name="activity_confirm_registration_66">150sp</dimen>
+    <dimen name="activity_confirm_registration_67">10sp</dimen>
+    <dimen name="activity_confirm_registration_68">120sp</dimen>
+    <dimen name="activity_confirm_registration_69">20sp</dimen>
+    <dimen name="activity_confirm_registration_70">10sp</dimen>
+    <dimen name="activity_confirm_registration_71">20sp</dimen>
+    <dimen name="activity_confirm_registration_72">10sp</dimen>
+    <dimen name="activity_confirm_registration_73">10sp</dimen>
+    <dimen name="activity_confirm_registration_74">25sp</dimen>
+    <dimen name="activity_confirm_registration_75">20sp</dimen>
+    <dimen name="activity_main_error_textView_margin_top">5sp</dimen>
+
+    <dimen name="activity_payment_linearLayout_margin">20sp</dimen>
+    <dimen name="activity_payment_subleased_nights_layout_height">100sp</dimen>
+    <dimen name="activity_payment_linearLayout_margin_top">40sp</dimen>
+    <dimen name="activity_payment_congratulations_teztView_textSize">30sp</dimen>
+    <dimen name="activity_payment_congratulations_description_margin_top">10sp</dimen>
+    <dimen name="activity_payment_congratulations_description_textSize">15sp</dimen>
+    <dimen name="activity_payment_gmaps_textView_widthHeight">100sp</dimen>
+    <dimen name="activity_payment_gmaps_textView_margin_bottom">10sp</dimen>
+    <dimen name="activity_payment_gmaps_textView_margin_textSize">25sp</dimen>
+    <dimen name="activity_payment_gmaps_text_margin">5sp</dimen>
+    <dimen name="activity_payment_gmaps_text_textSize">25sp</dimen>
+
+    <dimen name="activity_payment_scrollView_margin">30sp</dimen>
+    <dimen name="activity_payment_edit_layout_widthHeight">40sp</dimen>
+    <dimen name="activity_payment_edit_layout_marginRight">15sp</dimen>
+    <dimen name="activity_payment_edit_layout_imageView_widthHeight">30sp</dimen>
+    <dimen name="activity_payment_message_layout_widthHeight">40sp</dimen>
+    <dimen name="activity_payment_message_layout_margin_left">15sp</dimen>
+    <dimen name="activity_payment_imageView3_widthHeight">30sp</dimen>
+    <dimen name="activity_payment_imageView4_widthHeight">10sp</dimen>
+    <dimen name="activity_payment_imageView4_margin">5sp</dimen>
+    <dimen name="activity_payment_view_margin_top">30sp</dimen>
+    <dimen name="activity_payment_your_account_textView_textSize">15sp</dimen>
+    <dimen name="activity_payment_your_account_textView_margin_top">10sp</dimen>
+    <dimen name="activity_payment_username_textView_margin_top">40sp</dimen>
+    <dimen name="activity_payment_username_textView_textSize">20sp</dimen>
+    <dimen name="activity_payment_age_and_gender_layout_height">30sp</dimen>
+    <dimen name="activity_payment_age_and_gender_layout_margin_top">10sp</dimen>
+    <dimen name="activity_payment_age_textView_margin_right">8sp</dimen>
+    <dimen name="activity_payment_age_textView_textSize">23sp</dimen>
+    <dimen name="activity_payment_gender_imageView_padding_left">5sp</dimen>
+    <dimen name="activity_payment_person_rating_layout_height">30sp</dimen>
+    <dimen name="activity_payment_person_rating_layout_margin_top">10sp</dimen>
+    <dimen name="activity_payment_emoji_left_textView_marginRight">8sp</dimen>
+    <dimen name="activity_payment_emoji_left_textView_textSize">23sp</dimen>
+    <dimen name="activity_payment_rating_left_textView_margin_right">12sp</dimen>
+    <dimen name="activity_payment_rating_left_textView_textSize">23sp</dimen>
+    <dimen name="activity_payment_emoji_right_textView_margin_left">10sp</dimen>
+    <dimen name="activity_payment_emoji_right_textView_textSize">23sp</dimen>
+    <dimen name="activity_payment_rating_right_margin_left">8sp</dimen>
+    <dimen name="activity_payment_rating_right_textSize">23sp</dimen>
+    <dimen name="activity_payment_add_apartement_details_layout_height">110sp</dimen>
+    <dimen name="activity_payment_add_apartement_details_margin_top">40sp</dimen>
+    <dimen name="activity_payment_add_apartement_details_textView_margin_leftRight">8sp</dimen>
+    <dimen name="activity_payment_add_apartement_details_textView_textSize">30sp</dimen>
+    <dimen name="activity_profile_report_a_bug_layout_height">110sp</dimen>
+    <dimen name="activity_profile_report_a_bug_margin_top">40sp</dimen>
+    <dimen name="activity_profile_report_a_bug_textView_margin_leftRight">8sp</dimen>
+    <dimen name="activity_profile_report_a_bug_textView_textSize">30sp</dimen>
+
+    <dimen name="activity_register_activity_screen_1_log_in_layout_width">186sp</dimen>
+    <dimen name="activity_register_activity_screen_1_log_in_layout_height">84sp</dimen>
+    <dimen name="activity_register_activity_screen_1_log_in_textView_textSize">46sp</dimen>
+    <dimen name="activity_register_activity_screen_1_register_layout_width">186sp</dimen>
+    <dimen name="activity_register_activity_screen_1_register_layout_height">84sp</dimen>
+    <dimen name="activity_register_activity_screen_1_register_textView_textSize">46sp</dimen>
+    <dimen name="activity_register_activity_screen_1_header_image_height">125sp</dimen>
+    <dimen name="activity_register_activity_screen_1_header_image_margin">10sp</dimen>
+
+    <dimen name="activity_register_activity_screen_2_header_image_height">125sp</dimen>
+    <dimen name="activity_register_activity_screen_2_header_image_margin_top">10sp</dimen>
+    <dimen name="activity_register_activity_screen_2_error_message_margin_leftRight">30sp</dimen>
+    <dimen name="activity_register_activity_screen_2_error_message_margin_margin_top">5sp</dimen>
+    <dimen name="activity_register_activity_screen_2_scrollView_margin_bottom">15sp</dimen>
+    <dimen name="activity_register_activity_screen_2_firstName_layout_margin_top">25sp</dimen>
+    <dimen name="activity_register_activity_screen_2_lastName_margin_top">10sp</dimen>
+    <dimen name="activity_register_activity_screen_2_lastName_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_activity_screen_2_email_layout_margin_top">10sp</dimen>
+    <dimen name="activity_register_activity_screen_2_email_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_activity_screen_2_password_layout_margin_top">10sp</dimen>
+    <dimen name="activity_register_activity_screen_2_password_layout_margin_left">20sp</dimen>
+    <dimen name="activity_register_activity_screen_2_password_layout_padding_left">20sp</dimen>
+    <dimen name="activity_register_activity_screen_2_linearLayout_padding_left">20sp</dimen>
+    <dimen name="activity_register_activity_screen_2_linearLayout_margin_left">20sp</dimen>
+    <dimen name="activity_register_activity_screen_2_gender_width">34sp</dimen>
+    <dimen name="activity_register_activity_screen_2_gender_male_margin_left">25sp</dimen>
+    <dimen name="activity_register_activity_screen_2_apinner_height">40sp</dimen>
+    <dimen name="activity_register_activity_screen_2_spinner_padding">10sp</dimen>
+    <dimen name="activity_register_activity_screen_2_spinner_margin_top">15sp</dimen>
+    <dimen name="activity_register_activity_screen_2_spinner_margin_leftRight">20sp</dimen>
+    <dimen name="activity_register_activity_screen_2_margin_leftRight">10sp</dimen>
+    <dimen name="activity_register_activity_screen_2_margin_top">15sp</dimen>
+    <dimen name="activity_register_activity_screen_2_imageView3_width">20sp</dimen>
+    <dimen name="activity_register_activity_screen_2_imageView3_margin_top">5sp</dimen>
+    <dimen name="activity_register_activity_screen_2_fabView_margin_bottom">70sp</dimen>
+
+    <dimen name="content_register_activity_screen3_headerImage_height">125sp</dimen>
+    <dimen name="content_register_activity_screen3_headerImage_margin_top">10sp</dimen>
+    <dimen name="content_register_activity_screen3_view_above_fab_widthHeight">10sp</dimen>
+    <dimen name="content_register_activity_screen3_view_above_fab_margin_bottom">60sp</dimen>
+    <dimen name="content_register_activity_screen3_error_textView_margin_top">5sp</dimen>
+    <dimen name="content_register_activity_screen3_log_in_layout_height">125sp</dimen>
+    <dimen name="content_register_activity_screen3_log_in_layout_width">175sp</dimen>
+    <dimen name="content_register_activity_screen3_imageView5_textSize">25sp</dimen>
+    <dimen name="content_register_activity_screen3_imageView5_margin_top">10sp</dimen>
+    <dimen name="content_register_activity_screen3_imageView_wdithHeight">40sp</dimen>
+    <dimen name="content_register_activity_screen3_imageView_margin_top">20sp</dimen>
+    <dimen name="content_register_activity_screen3_register_layout_height">125sp</dimen>
+    <dimen name="content_register_activity_screen3_register_layout_width">175sp</dimen>
+    <dimen name="content_register_activity_screen3_imageView6_widthHeight">40sp</dimen>
+    <dimen name="content_register_activity_screen3_imageView6_margin_top">20sp</dimen>
+    <dimen name="content_register_activity_screen3_register_textView_textSize">25sp</dimen>
+    <dimen name="content_register_activity_screen3_register_textView_margin_top">10sp</dimen>
+    <dimen name="content_register_activity_screen3_subTitle_margin_top">3sp</dimen>
+    <dimen name="content_register_activity_screen3_subTitle_textSize">30sp</dimen>
+    <dimen name="content_register_activity_screen3_profile_image_widthHeight">150sp</dimen>
+    <dimen name="content_register_activity_screen3_profile_image_margin_bottom">20sp</dimen>
+    <dimen name="content_register_activity_screen3_profile_image_margin_top">20sp</dimen>
+    <dimen name="content_register_activity_screen3_additional_info_textView_margin_leftRight">10sp</dimen>
+    <dimen name="content_register_activity_screen3_additional_info_textView_margin_top">10sp</dimen>
+    <dimen name="content_register_activity_screen3_additional_info_textView_textView">20sp</dimen>
+
+    <dimen name="content_register_activity_screen4_error_message_leftRight">30sp</dimen>
+    <dimen name="content_register_activity_screen4_error_message_top">5sp</dimen>
+    <dimen name="content_register_activity_screen4_view_widthHeight">10sp</dimen>
+    <dimen name="content_register_activity_screen4_view_margin_bottom">60sp</dimen>
+    <dimen name="content_register_activity_screen4_header_image_height">125sp</dimen>
+    <dimen name="content_register_activity_screen4_header_image_margin_top">10sp</dimen>
+    <dimen name="content_register_activity_screen4_subTitle_textView_margin_leftRight">10sp</dimen>
+    <dimen name="content_register_activity_screen4_subTitle_textView_margin_top">5sp</dimen>
+    <dimen name="content_register_activity_screen4_subTitle_textView_textSize">45sp</dimen>
+    <dimen name="content_register_activity_screen4_app_not_unlcoked_textView_textSize">20sp</dimen>
+    <dimen name="content_register_activity_screen4_app_not_unlcoked_textView_margin_leftRight">10sp</dimen>
+    <dimen name="content_register_activity_screen4_additional_info_textView_margin_bottom">40sp</dimen>
+    <dimen name="content_register_activity_screen4_additional_info_textView_margin_leftRight">20sp</dimen>
+    <dimen name="content_register_activity_screen4_additional_info_textView_textSize">20sp</dimen>
+    <dimen name="content_register_activity_screen4_partyImage_width">180sp</dimen>
+
+    <dimen name="activity_register_yes_screen_1_view_above_fab_heightWidth">10sp</dimen>
+    <dimen name="activity_register_yes_screen_1_view_above_fab_margin_bottom">60sp</dimen>
+    <dimen name="activity_register_yes_screen_1_header_image_height">125sp</dimen>
+    <dimen name="activity_register_yes_screen_1_header_image_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen_1_error_textView_margin_top">5sp</dimen>
+    <dimen name="activity_register_yes_screen_1_subTitle_margin_top">3sp</dimen>
+    <dimen name="activity_register_yes_screen_1_subTitle_textSize">30sp</dimen>
+    <dimen name="activity_register_yes_screen_1_additional_info_textView_margin_leftRight">15sp
+    </dimen>
+    <dimen name="activity_register_yes_screen_1_additional_info_textView_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen_1_additional_info_textView_textSize">20sp</dimen>
+    <dimen name="activity_register_yes_screen_1_log_in_layout_margin_bottom">25sp</dimen>
+    <dimen name="activity_register_yes_screen_1_log_in_layout_height">125sp</dimen>
+    <dimen name="activity_register_yes_screen_1_log_in_layout_width">175sp</dimen>
+    <dimen name="activity_register_yes_screen_1_log_in_textView_textSize">25sp</dimen>
+    <dimen name="activity_register_yes_screen_1_log_in_textView_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen_1_imageView5_widthHeight">40sp</dimen>
+    <dimen name="activity_register_yes_screen_1_imageView5_margin_top">20sp</dimen>
+    <dimen name="activity_register_yes_screen_1_register_layout_height">125sp</dimen>
+    <dimen name="activity_register_yes_screen_1_register_layout_width">175sp</dimen>
+    <dimen name="activity_register_yes_screen_1_imageView6_widthHeight">40sp</dimen>
+    <dimen name="activity_register_yes_screen_1_imageView6_margin_top">20sp</dimen>
+    <dimen name="activity_register_yes_screen1_register_textView_textSize">25sp</dimen>
+    <dimen name="activity_register_yes_screen1_register_textView_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen1_profile_imageView_widthHeight">150sp</dimen>
+    <dimen name="activity_register_yes_screen1_profile_imageView_margin_bottom">20sp</dimen>
+    <dimen name="activity_register_yes_screen1_profile_imageView_margin_top">20sp</dimen>
+    <dimen name="activity_register_yes_screen1_not_now_layout_width">100sp</dimen>
+    <dimen name="activity_register_yes_screen1_not_now_layout_height">40sp</dimen>
+    <dimen name="activity_register_yes_screen1_not_now_layout_margin">10sp</dimen>
+    <dimen name="activity_register_yes_screen1_aditional_info_textView_textSize">20sp</dimen>
+
+    <dimen name="activity_register_yes_screen2_error_textView_margin_top">5sp</dimen>
+    <dimen name="activity_register_yes_screen2_view_above_fab_margin_bottom">70sp</dimen>
+    <dimen name="activity_register_yes_screen2_header_image_height">125sp</dimen>
+    <dimen name="activity_register_yes_screen2_header_image_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen2_subTitle_margin_leftRight">10sp</dimen>
+    <dimen name="activity_register_yes_screen2_subTitle_margin_top">3sp</dimen>
+    <dimen name="activity_register_yes_screen2_subTitle_textSize">30sp</dimen>
+    <dimen name="activity_register_yes_screen2_userName_layout_margin_bottom">50sp</dimen>
+    <dimen name="activity_register_yes_screen2_userName_textView_margin_leftRight">10sp</dimen>
+    <dimen name="activity_register_yes_screen2_userName_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_yes_screen2_lastName_layout_margin_bottom">5sp</dimen>
+    <dimen name="activity_register_yes_screen2_lastName_layout_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_yes_screen2_firstName_layout_margin_bottom">5sp</dimen>
+    <dimen name="activity_register_yes_screen2_firstName_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_yes_screen2_apartement_images_frameLayout_height">110sp</dimen>
+    <dimen name="activity_register_yes_screen2_apartement_images_frameLayout_margin_top">25sp</dimen>
+    <dimen name="activity_register_yes_screen2_viewPager3_widthHeight">110sp</dimen>
+    <dimen name="activity_register_yes_screen2_viewPager3_margin_left">30sp</dimen>
+    <dimen name="activity_register_yes_screen2_viewPager2_margin_left">15sp</dimen>
+    <dimen name="activity_register_yes_screen2_add_image_layout_widthHeight">30sp</dimen>
+
+    <dimen name="activity_register_yes_screen3_header_image_height">125sp</dimen>
+    <dimen name="activity_register_yes_screen3_header_image_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen3_view_above_fab_margin_bottom">60sp</dimen>
+    <dimen name="activity_register_yes_screen3_firstName_layout_margin_top">15sp</dimen>
+    <dimen name="activity_register_yes_screen3_firstName_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_yes_screen3_firstName_edittext_padding_leftRight">5sp</dimen>
+    <dimen name="activity_register_yes_screen3_lastName_layout_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen3_lastName_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_yes_screen3_frameLayout_height">150sp</dimen>
+    <dimen name="activity_register_yes_screen3_lastName_edittext_height">150sp</dimen>
+    <dimen name="activity_register_yes_screen3_lastName_edittext_padding_leftRight">5sp</dimen>
+    <dimen name="activity_register_yes_screen3_lastName_edittext_margin_bottom">5sp</dimen>
+    <dimen name="activity_register_yes_screen3_lastName_edittext_padding_top">20sp</dimen>
+    <dimen name="activity_register_yes_screen3_letter_count_textView_padding">5sp</dimen>
+    <dimen name="activity_register_yes_screen3_userName_layout_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen3_userName_textView_margin_leftRight">10sp</dimen>
+    <dimen name="activity_register_yes_screen3_userName_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_yes_screen3_userName_editText_textSize">30sp</dimen>
+    <dimen name="activity_register_yes_screen3_currency_textView_textSize">30sp</dimen>
+    <dimen name="activity_register_yes_screen3_currency_textView_padding_left">8sp</dimen>
+    <dimen name="activity_register_yes_screen3_password_layout_margin_top">10sp</dimen>
+    <dimen name="activity_register_yes_screen3_password_textView_margin_left">20sp</dimen>
+    <dimen name="activity_register_yes_screen3_password_textView_padding_left">20sp</dimen>
+    <dimen name="activity_register_yes_screen3_one_textView_margin_right">10sp</dimen>
+    <dimen name="activity_register_yes_screen3_imageView3_width">20sp</dimen>
+    <dimen name="activity_register_yes_screen3_imageView3_margin_top">5sp</dimen>
+    <dimen name="activity_register_yes_screen3_additional_info_textSize">30sp</dimen>
+    <dimen name="activity_register_yes_screen3_margin_top">5sp</dimen>
+
+    <dimen name="activity_report_a_bug_send_bug_layout_height">5sp</dimen>
+    <dimen name="activity_report_a_bug_send_email_button_height">50sp</dimen>
+    <dimen name="activity_report_a_bug_send_bug_layout_margin">40sp</dimen>
+    <dimen name="activity_report_a_bug_description_textView_margin_top">10sp</dimen>
+    <dimen name="activity_report_a_bug_description_textView_margin_leftRight">5sp</dimen>
+    <dimen name="activity_report_a_bug_description_textView_margin_bottom">10sp</dimen>
+    <dimen name="activity_report_a_bug_description_textView_textSize">20sp</dimen>
+    <dimen name="activity_report_a_bug_send_email_button_layout_height">110sp</dimen>
+    <dimen name="activity_report_a_bug_send_email_button_layout_margin_bottom">15sp</dimen>
+    <dimen name="activity_report_a_bug_send_email_button_layout_margin_top">10sp</dimen>
+    <dimen name="activity_report_a_bug_send_email_button_layout_textSize">25sp</dimen>
+    <dimen name="activity_report_a_bug_send_email_textView_margin_leftRight">30sp</dimen>
+    <dimen name="activity_report_a_bug_send_email_textView_textSize">20sp</dimen>
+
+    <dimen name="activity_settings_scrollView_margin">30sp</dimen>
+    <dimen name="activity_settings_become_a_host_margin_leftRight">8sp</dimen>
+    <dimen name="activity_settings_become_a_host_textSize">30sp</dimen>
+    <dimen name="activity_settings_log_out_layout_height">110sp</dimen>
+    <dimen name="activity_settings_log_out_layout_margin_top">40sp</dimen>
+    <dimen name="activity_settings_log_out_textView_margin_leftRight">8sp</dimen>
+    <dimen name="activity_settings_log_out_textView_textSize">30sp</dimen>
+    <dimen name="activity_settings_change_password_layout_height">110sp</dimen>
+    <dimen name="activity_settings_change_password_textView_margin_leftRight">8sp</dimen>
+    <dimen name="activity_settings_change_password_textView_textSize">30sp</dimen>
+    <dimen name="activity_settings_delete_password_layout_height">110sp</dimen>
+    <dimen name="activity_settings_delete_password_layout_margin_top">40sp</dimen>
+    <dimen name="activity_settings_delete_password_textView_margin_leftRight">8sp</dimen>
+    <dimen name="activity_settings_delete_password_textView_margin_textSize">30sp</dimen>
+
+    <dimen name="activity_splash_screen_layout_widthHeight">128sp</dimen>
+
+    <dimen name="activity_startup_appBar_layout_height">56sp</dimen>
+    <dimen name="activity_startup_logo_imageView_margin">5sp</dimen>
+    <dimen name="activity_startup_account_frameLayout_width">40sp</dimen>
+    <dimen name="activity_startup_account_frameLayout_margin_right">10sp</dimen>
+    <dimen name="activity_startup_account_frameLayout_margin_top">5sp</dimen>
+    <dimen name="activity_startup_account_frameLayout_margin_bottom">5sp</dimen>
+    <dimen name="activity_startup_settings_layout_width">40sp</dimen>
+    <dimen name="activity_startup_settings_layout_margin_left">10sp</dimen>
+    <dimen name="activity_startup_settings_layout_margin_top">5sp</dimen>
+    <dimen name="activity_startup_settings_layout_margin_bottom">5sp</dimen>
+    <dimen name="activity_startup_search_city_editText_height">40sp</dimen>
+    <dimen name="activity_startup_search_city_editText_margin">5sp</dimen>
+    <dimen name="activity_startup_search_city_editText_padding">3sp</dimen>
+
+    <dimen name="custom_dialog_custom_dialog_textView_textSize">25sp</dimen>
+    <dimen name="custom_dialog_custom_dialog_textView_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_custom_dialog_textView_margin_leftRight">7sp</dimen>
+    <dimen name="custom_dialog_custom_dialog_view_margin_top">20sp</dimen>
+
+    <dimen name="custom_dialog_accepted_2_description_textView_margin_top">5sp</dimen>
+    <dimen name="custom_dialog_accepted_2_description_textView_margin_bottom">5sp</dimen>
+    <dimen name="custom_dialog_accepted_2_description_textView_margin_leftRight">10sp</dimen>
+    <dimen name="custom_dialog_accepted_2_description_textView_textSize">22sp</dimen>
+    <dimen name="custom_dialog_accepted_2_ok_button_layout_marginLeft">10sp</dimen>
+    <dimen name="custom_dialog_accepted_2_ok_button_layout_margin_top">20sp</dimen>
+    <dimen name="custom_dialog_accepted_2_ok_button_layout_textSize">25sp</dimen>
+    <dimen name="custom_dialog_accepted_2_ok_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_accepted_2_ok_textView_Left">30sp</dimen>
+    <dimen name="custom_dialog_accepted2_ok_textView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_accepted2_bottom_layout_margin_top">10sp</dimen>
+
+    <dimen name="custom_dialog_booking_accepted_margin">50sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_margin_top">5sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_margin_bottom">5sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_margin_leftRight">10sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_description_textView_textSize">22sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_proceed_button_layout_margin_left">10sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_proceed_button_layout_margin_top">20sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_proceed_button_layout_margin_textSize">25sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_proceed_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_proceed_textView_margin_leftRight">30sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_proceed_textView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_booking_accepted_bottom_line_book_now_layout_margin_top">10sp</dimen>
+
+    <dimen name="custom_dialog_guest_booking_description_textView_margin_top">5sp</dimen>
+    <dimen name="custom_dialog_guest_booking_description_textView_margin_bottom">5sp</dimen>
+    <dimen name="custom_dialog_guest_booking_description_textView_margin_leftRight">10sp</dimen>
+    <dimen name="custom_dialog_guest_booking_description_textView_textSize">22sp</dimen>
+    <dimen name="custom_dialog_guest_booking_linear_layout_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_guest_booking_checkbox_widthHeight">25sp</dimen>
+    <dimen name="custom_dialog_guest_booking_checkbox_margin_left">10sp</dimen>
+    <dimen name="custom_dialog_guest_booking_subletting_room_textView_margin_bottom">2sp</dimen>
+    <dimen name="custom_dialog_guest_booking_subletting_room_textView_margin_top">15sp</dimen>
+    <dimen name="custom_dialog_guest_booking_checkBoxApartement_wdithHeight">25sp</dimen>
+    <dimen name="custom_dialog_guest_booking_checkBoxApartement_margin_left">10sp</dimen>
+    <dimen name="custom_dialog_guest_booking_subletting_apartement_textView">2sp</dimen>
+    <dimen name="custom_dialog_guest_booking_view_centerView">10sp</dimen>
+    <dimen name="custom_dialog_guest_no_button_layout_margin_top">20sp</dimen>
+    <dimen name="custom_dialog_guest_no_button_layout_margin_rightr">10sp</dimen>
+    <dimen name="custom_dialog_guest_no_button_layout_textSize">25sp</dimen>
+    <dimen name="custom_dialog_guest_no_button_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_guest_no_button_textView_margin_leftRight">30sp</dimen>
+    <dimen name="custom_dialog_guest_no_button_textView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_guest_yes_button_layout_margin_left">10sp</dimen>
+    <dimen name="custom_dialog_guest_yes_button_layout_margin_top">20sp</dimen>
+    <dimen name="custom_dialog_guest_yes_button_layout_textSize">25sp</dimen>
+    <dimen name="custom_dialog_guest_yes_button_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_guest_yes_button_textView_margin_leftRIght">30sp</dimen>
+    <dimen name="custom_dialog_guest_yes_button_textView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_guest_bottom_line_book_now_layout_margin_top">10sp</dimen>
+
+    <dimen name="custom_dialog_host_finished_description_textView_margin_top">5sp</dimen>
+    <dimen name="custom_dialog_host_finished_margin">50sp</dimen>
+    <dimen name="custom_dialog_host_finished_description_textView_margin_bottom">5sp</dimen>
+    <dimen name="custom_dialog_host_finished_margin_leftRight">10sp</dimen>
+    <dimen name="custom_dialog_host_finished_desciption_textView_textSize">22sp</dimen>
+    <dimen name="custom_dialog_host_finished_yes_button_layout_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_host_finished_yes_button_layout_margin_right">10sp</dimen>
+    <dimen name="custom_dialog_host_finished_yes_button_layout_textSize">25sp</dimen>
+    <dimen name="custom_dialog_host_finished_yes_button_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_host_finished_yes_button_textView_margin_leftRight">30sp</dimen>
+    <dimen name="custom_dialog_host_finished_yes_button_textView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_host_finished_no_button_layout_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_host_finished_no_button_layout_textSize">25sp</dimen>
+    <dimen name="custom_dialog_host_finished_no_button_layout_margin_left">10sp</dimen>
+    <dimen name="custom_dialog_host_finished_no_button_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_host_finished_no_button_textView_margin_leftRight">30sp</dimen>
+    <dimen name="custom_dialog_host_finished_no_button_textView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_host_finished_bottom_line_book_now_layout_margin_top">10sp</dimen>
+
+    <dimen name="custom_dialog_regulations_margin">50sp</dimen>
+    <dimen name="custom_dialog_regulations_description_textView_margin_top">5sp</dimen>
+    <dimen name="custom_dialog_regulations_description_textView_margin_bottom">5sp</dimen>
+    <dimen name="custom_dialog_regulations_description_textView_margin_leftRight">10sp</dimen>
+    <dimen name="custom_dialog_regulations_description_textView_textSize">22sp</dimen>
+    <dimen name="custom_dialog_regulations_link_textView_margin">10sp</dimen>
+    <dimen name="custom_dialog_regulations_bottom_line_book_now_layout_margin_top">10sp</dimen>
+
+    <dimen name="custom_dialog_user_stay_ended_1">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_2">5sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_3">5sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_4">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_5">22sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_6">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_7">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_8">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_9">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_10">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_11">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_12">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_13">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_14">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_15">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_16">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_17">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_18">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_19">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_20">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_21">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_22">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_23">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_24">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_25">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_26">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_27">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_28">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_29">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_30">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_31">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_32">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_33">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_34">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_35">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_36">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_37">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_38">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_39">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_40">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_41">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_42">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_43">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_44">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_45">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_46">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_47">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_48">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_49">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_50">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_51">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_52">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_53">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_54">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_55">25sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_56">50sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_57">30sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_58">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_59">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_60">40sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_61">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_62">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_63">40sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_64">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_65">20sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_66">10sp</dimen>
+    <dimen name="custom_dialog_user_stay_ended_67">10sp</dimen>
+
+    <dimen name="custom_dialog_with_button_description_textView_margin_top">5sp</dimen>
+    <dimen name="custom_dialog_with_button_description_textView_margin_bottom">5sp</dimen>
+    <dimen name="custom_dialog_with_button_description_textView_margin_leftRight">10sp</dimen>
+    <dimen name="custom_dialog_with_button_description_textView_textSize">22sp</dimen>
+    <dimen name="custom_dialog_with_button_layout_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_with_button_layout_textSize">25sp</dimen>
+    <dimen name="custom_dialog_with_button_button_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_with_button_button_textView_margin_leftRight">30sp</dimen>
+    <dimen name="custom_dialog_with_button_button_textView_textSize">20sp</dimen>
+
+    <dimen name="custom_dialog_with_edittext_margin">50sp</dimen>
+    <dimen name="custom_dialog_with_edittext_description_textView_margin_top">5sp</dimen>
+    <dimen name="custom_dialog_with_edittext_description_textView_margin_leftRight">10sp</dimen>
+    <dimen name="custom_dialog_with_edittext_description_textView_textSize">22sp</dimen>
+    <dimen name="custom_dialog_with_edittext_edittext_width">300sp</dimen>
+    <dimen name="custom_dialog_with_edittext_edittext_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_with_edittext_edittext_textSize">20sp</dimen>
+    <dimen name="custom_dialog_with_edittext_fab_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_with_edittext_bottom_line_book_now_layout_margin_top">15sp</dimen>
+
+    <dimen name="custom_dialog_with_three_buttons_margin">10sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_description_textView_margin_top">5sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_description_textView_margin_bottom">5sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_description_textView_margin_leftRight">10sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_description_textView_textSize">22sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_proceed_button_layout_marginRight">10sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_proceed_button_layout_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_proceed_button_layout_textSize">25sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_proceed_proceedtextView_height">50sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_proceed_proceedtextView_margin_leftRight">30sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_proceed_proceedtextView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_maybe_later_button_layout_margin_top">10sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_maybe_later_button_layout_textSize">25sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_maybe_later_button_layout_margin_left">10sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_maybe_later_button_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_maybe_later_button_textView_margin_left">30sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_maybe_later_button_textView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_remove_hoststatus_textView">10sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_remove_hoststatus_texxtView_textSize">25sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_remove_hoststatus_textView_height">50sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_remove_hoststatus_textView_margin_leftRight">30sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_remove_hoststatus_textView_textSize">20sp</dimen>
+    <dimen name="custom_dialog_with_three_buttons_remove_hoststatus_bottom_line_book_layout">10sp</dimen>
+
+    <dimen name="custom_tab_layout_textSize">20sp</dimen>
+    <dimen name="custom_tab_layout_padding">10sp</dimen>
+
+    <dimen name="list_item_list_item_imageView_widthHeight">150sp</dimen>
+    <dimen name="list_item_middle_textView_textSize">15sp</dimen>
+    <dimen name="list_item_middle_textView_padding_leftRight">15sp</dimen>
+    <dimen name="list_item_top_textView_textSize">30sp</dimen>
+    <dimen name="list_item_profile_imageView_widthHeight">30sp</dimen>
+    <dimen name="list_item_profile_imageView_margin_bottom">5sp</dimen>
+    <dimen name="list_item_profile_imageView_margin_right">5sp</dimen>
+    <dimen name="list_item_textView3_textSize">10sp</dimen>
+    <dimen name="list_item_textView3_margin_right">5sp</dimen>
+    <dimen name="list_item_rating_imageView_height">15sp</dimen>
+    <dimen name="list_item_rating_imageView_margin_left">15sp</dimen>
+
+    <dimen name="top_item_top_item_layout_height">400sp</dimen>
+    <dimen name="top_item_top_item_layout_apartement_images_imageView">180sp</dimen>
+    <dimen name="top_item_top_item_city_name_textView_margin_leftRight">25sp</dimen>
+    <dimen name="top_item_top_item_city_name_textView_margin_top">10sp</dimen>
+    <dimen name="top_item_top_item_city_name_textView_textSize">33sp</dimen>
+    <dimen name="top_item_top_item_imageView2_widthHeight">20sp</dimen>
+    <dimen name="top_item_top_item_expendable_menu_click_area_height">30sp</dimen>
+    <dimen name="top_item_top_item_expendable_menu_click_visibility_height">25sp</dimen>
+    <dimen name="top_item_top_item_cityscreen_viewpager_margin_bottom">10sp</dimen>
+    <dimen name="top_item_top_item_cityscreen_viewpager_margin_top">5sp</dimen>
+    <dimen name="top_item_top_item_subtitle_textView_margin_leftRight">25sp</dimen>
+    <dimen name="top_item_top_item_subtitle_textView_margin_top">5sp</dimen>
+    <dimen name="top_item_top_item_subtitle_textView_textSize">15sp</dimen>
+
+</resources>

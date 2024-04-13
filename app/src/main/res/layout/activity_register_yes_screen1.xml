@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:background="@color/main_background">
+
+    <View
+        android:layout_width="@dimen/activity_register_yes_screen_1_view_above_fab_heightWidth"
+        android:layout_height="@dimen/activity_register_yes_screen_1_view_above_fab_heightWidth"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_register_yes_screen_1_view_above_fab_margin_bottom"
+        android:id="@+id/view_above_fab"/>
+
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_confirm_registration_header_image_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_register_yes_screen_1_header_image_margin_top"
+        android:src="@drawable/hart_logo" />
+
+    <TextView
+        android:id="@+id/error_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_image"
+        android:layout_marginTop="@dimen/activity_register_yes_screen_1_error_textView_margin_top"
+        android:gravity="center"
+        android:textColor="@color/error_message_color"
+        android:textSize="@dimen/error_message_textSize"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/subTitle_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/activity_register_yes_screen_1_subTitle_margin_top"
+        android:gravity="center"
+        android:layout_below="@+id/error_textView"
+        android:text="@string/room_or_apartement"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="@dimen/activity_register_yes_screen_1_subTitle_textSize" />
+
+    <TextView
+        android:id="@+id/aditional_info_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/subTitle_textView"
+        android:layout_marginEnd="@dimen/activity_register_yes_screen_1_additional_info_textView_margin_leftRight"
+        android:layout_marginLeft="@dimen/activity_register_yes_screen_1_additional_info_textView_margin_leftRight"
+        android:layout_marginRight="@dimen/activity_register_yes_screen_1_additional_info_textView_margin_leftRight"
+        android:layout_marginStart="@dimen/activity_register_yes_screen_1_additional_info_textView_margin_leftRight"
+        android:layout_marginTop="@dimen/activity_register_yes_screen_1_additional_info_textView_margin_top"
+        android:gravity="center"
+        android:text="@string/take_apartement_photo"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="@dimen/activity_register_yes_screen_1_additional_info_textView_textSize" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_above="@+id/view_above_fab"
+        android:layout_below="@+id/aditional_info_textView"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/log_in_layout"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/activity_register_yes_screen_1_log_in_layout_margin_bottom"
+                android:layout_marginLeft="@dimen/log_in_layout_margin_left"
+                android:layout_marginStart="@dimen/log_in_layout_margin_left"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/content_register_activity_screen3_log_in_layout_height"
+                android:layout_width="@dimen/content_register_activity_screen3_log_in_layout_width">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:id="@+id/log_in_layout_view"
+                    android:layout_height="match_parent"
+                    android:background="@color/main_background"/>
+
+                <TextView
+                    android:text="@string/take_picture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/log_in_textView"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/activity_register_yes_screen_1_log_in_textView_textSize"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/activity_register_yes_screen_1_log_in_textView_margin_top" />
+
+                <ImageView
+                    android:layout_width="@dimen/activity_register_yes_screen_1_imageView5_widthHeight"
+                    android:layout_height="@dimen/activity_register_yes_screen_1_imageView5_widthHeight"
+                    android:id="@+id/imageView5"
+                    android:src="@mipmap/ic_photo_camera_white_48dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/activity_register_yes_screen_1_imageView5_margin_top" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/register_layout"
+                android:orientation="horizontal"
+                android:layout_marginRight="@dimen/register_layout_margin_right"
+                android:layout_marginEnd="@dimen/register_layout_margin_right"
+                android:layout_alignTop="@+id/log_in_layout"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_height="@dimen/content_register_activity_screen3_register_layout_height"
+                android:layout_width="@dimen/content_register_activity_screen3_register_layout_width">
+
+                <View
+                    android:id="@+id/register_layout_view"
+                    android:layout_height="match_parent"
+                    android:background="@color/main_background"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/imageView6"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/ic_camera_roll_white_48dp"
+                    android:layout_width="@dimen/activity_register_yes_screen_1_imageView6_widthHeight"
+                    android:layout_height="@dimen/activity_register_yes_screen_1_imageView6_widthHeight"
+                    android:layout_marginTop="@dimen/activity_register_yes_screen_1_imageView6_margin_top" />
+
+                <TextView
+                    android:text="@string/gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/register_textView"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/activity_register_yes_screen_1_log_in_textView_textSize"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/activity_register_yes_screen1_register_textView_margin_top" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0sp"
+                android:layout_height="0sp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/layout_center" />
+
+            <ImageView
+                android:id="@+id/profile_imageView"
+                android:layout_width="@dimen/activity_register_yes_screen1_profile_imageView_widthHeight"
+                android:layout_height="@dimen/activity_register_yes_screen1_profile_imageView_widthHeight"
+                android:layout_above="@+id/log_in_layout"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/activity_register_yes_screen1_profile_imageView_margin_top"
+                android:layout_marginBottom="@dimen/activity_register_yes_screen1_profile_imageView_margin_bottom"
+                android:scaleType="centerCrop"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/not_now_layout"
+        android:layout_width="@dimen/activity_register_yes_screen1_not_now_layout_width"
+        android:layout_height="@dimen/activity_register_yes_screen1_not_now_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/activity_register_yes_screen1_not_now_layout_margin">
+
+        <View
+            android:id="@+id/not_now_layout_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/main_background" />
+
+        <TextView
+            android:id="@+id/additional_info_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/not_now"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="@dimen/activity_register_yes_screen1_aditional_info_textView_textSize" />
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fab"
+        android:layout_marginBottom="@dimen/floatingActionButton_margin_bottom"
+        app:backgroundTint="#E91E63"
+        android:src="@mipmap/ic_arrow_forward_white_48dp"
+        app:fabSize="normal" />
+
+</RelativeLayout>

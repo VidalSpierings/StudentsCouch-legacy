@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eiffel_tower_small"
+    tools:context=".ui.ApartementActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backgroundImage"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/send_bug_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_report_a_bug_send_bug_layout_margin"
+        android:background="@color/item_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/description_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_report_a_bug_description_textView_margin_bottom"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/found_a_bug"
+            android:textColor="@color/textColorTertiary"
+            android:textSize="@dimen/activity_report_a_bug_description_textView_textSize" />
+
+        <FrameLayout
+            android:id="@+id/send_email_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/activity_report_a_bug_send_email_button_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_report_a_bug_send_email_button_layout_margin_top"
+            android:layout_marginBottom="@dimen/activity_report_a_bug_send_email_button_layout_margin_bottom"
+            android:layout_weight="1"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/activity_report_a_bug_send_email_button_layout_textSize">
+
+            <TextView
+                android:id="@+id/send_email_textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/activity_report_a_bug_send_email_textView_margin_leftRight"
+                android:layout_marginLeft="@dimen/activity_report_a_bug_send_email_textView_margin_leftRight"
+                android:layout_marginEnd="@dimen/activity_report_a_bug_send_email_textView_margin_leftRight"
+                android:layout_marginRight="@dimen/activity_report_a_bug_send_email_textView_margin_leftRight"
+                android:gravity="center"
+                android:text="@string/send_an_email"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/activity_report_a_bug_send_email_textView_textSize" />
+
+        </FrameLayout>
+
+
+        <View
+            android:id="@+id/bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_line_height"
+            android:layout_gravity="bottom"
+            android:background="@color/bottom_line_color" />
+
+    </LinearLayout>
+
+<View
+    android:id="@+id/bottom_of_layout"
+    android:layout_width="0sp"
+    android:layout_height="0sp"
+    android:layout_gravity="bottom|center"/>
+
+</FrameLayout>

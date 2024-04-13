@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/custom_dialog_guest_booking_main_layout_margin"
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="@dimen/custom_dialog_guest_booking_frameLayout_width_height"
+                android:layout_height="@dimen/custom_dialog_guest_booking_frameLayout_width_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/custom_dialog_guest_booking_frameLayout_margin_top">
+
+                <ProgressBar
+                    android:id="@+id/progress_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:id="@+id/profile_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/descripton_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/custom_dialog_guest_booking_description_textView_margin_leftRight"
+                android:layout_marginTop="@dimen/custom_dialog_guest_booking_descripton_textView_margin_top"
+                android:layout_marginRight="@dimen/custom_dialog_guest_booking_description_textView_margin_leftRight"
+                android:layout_marginBottom="@dimen/custom_dialog_guest_booking_description_textView_margin_bottom"
+                android:gravity="center"
+                android:text="@string/loading"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/custom_dialog_guest_booking_description_textView_textSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/custom_dialog_guest_booking_linear_layout_margin_top">
+
+                <FrameLayout
+                    android:id="@+id/checkBoxRoom"
+                    android:layout_width="@dimen/custom_dialog_guest_booking_checkbox_widthHeight"
+                    android:layout_height="@dimen/custom_dialog_guest_booking_checkbox_widthHeight"
+                    android:layout_marginLeft="@dimen/custom_dialog_guest_booking_checkbox_margin_left"
+                    android:layout_marginStart="@dimen/custom_dialog_guest_booking_checkbox_margin_left"
+                    android:background="@color/textColorTertiary"
+                    android:button="@color/textColorSecondary"
+                    android:checked="false"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/subletting_room_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_check_white_48dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/subletting_room_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/custom_dialog_guest_booking_subletting_room_textView_margin_bottom"
+                    android:gravity="center"
+                    android:text="@string/subletting_room"
+                    android:textColor="@color/textColorTertiary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/custom_dialog_guest_booking_subletting_room_textView_margin_top">
+
+                <FrameLayout
+                    android:id="@+id/checkBoxApartement"
+                    android:layout_width="@dimen/custom_dialog_guest_booking_checkBoxApartement_wdithHeight"
+                    android:layout_height="@dimen/custom_dialog_guest_booking_checkBoxApartement_wdithHeight"
+                    android:layout_marginLeft="@dimen/custom_dialog_guest_booking_checkBoxApartement_margin_left"
+                    android:layout_marginStart="@dimen/custom_dialog_guest_booking_checkBoxApartement_margin_left"
+                    android:background="@color/textColorTertiary"
+                    android:button="@color/textColorSecondary"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/subletting_apartement_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_check_white_48dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/subletting_apartement_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/custom_dialog_guest_booking_subletting_apartement_textView"
+                    android:gravity="center"
+                    android:text="@string/subletting_apartement"
+                    android:textColor="@color/textColorTertiary" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/custom_dialog_guest_booking_view_centerView"
+                    android:layout_height="@dimen/custom_dialog_guest_booking_view_centerView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/center_view"/>
+
+                <FrameLayout
+                    android:id="@+id/no_button_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/custom_dialog_guest_no_button_layout_margin_top"
+                    android:layout_marginRight="@dimen/custom_dialog_guest_no_button_layout_margin_rightr"
+                    android:layout_toEndOf="@id/center_view"
+                    android:layout_toRightOf="@id/center_view"
+                    android:background="@color/buttonColorTertiary"
+                    android:textColor="@color/gmaps_textColor"
+                    android:textSize="@dimen/custom_dialog_guest_no_button_layout_textSize">
+
+                    <TextView
+                        android:id="@+id/no_button_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_dialog_guest_no_button_textView_height"
+                        android:layout_marginStart="@dimen/custom_dialog_guest_no_button_textView_margin_leftRight"
+                        android:layout_marginLeft="@dimen/custom_dialog_guest_no_button_textView_margin_leftRight"
+                        android:layout_marginEnd="@dimen/custom_dialog_guest_no_button_textView_margin_leftRight"
+                        android:layout_marginRight="@dimen/custom_dialog_guest_no_button_textView_margin_leftRight"
+                        android:gravity="center"
+                        android:text="@string/no_dialog"
+                        android:textColor="@color/buttonColorTertiaryTextColor"
+                        android:textSize="@dimen/custom_dialog_accepted2_ok_textView_textSize" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/yes_button_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/custom_dialog_guest_yes_button_layout_margin_left"
+                    android:layout_marginTop="@dimen/custom_dialog_guest_yes_button_layout_margin_top"
+                    android:layout_toStartOf="@id/center_view"
+                    android:layout_toLeftOf="@id/center_view"
+                    android:background="@color/buttonColorTertiary"
+                    android:text="@string/go_to_maps"
+                    android:textColor="@color/gmaps_textColor"
+                    android:textSize="@dimen/custom_dialog_guest_yes_button_layout_textSize">
+
+                    <TextView
+                        android:id="@+id/yes_button_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_dialog_guest_yes_button_textView_height"
+                        android:layout_marginStart="@dimen/custom_dialog_guest_yes_button_textView_margin_leftRIght"
+                        android:layout_marginLeft="@dimen/custom_dialog_guest_yes_button_textView_margin_leftRIght"
+                        android:layout_marginEnd="@dimen/custom_dialog_guest_yes_button_textView_margin_leftRIght"
+                        android:layout_marginRight="@dimen/custom_dialog_guest_yes_button_textView_margin_leftRIght"
+                        android:gravity="center"
+                        android:text="@string/yes_dialog"
+                        android:textColor="@color/buttonColorTertiaryTextColor"
+                        android:textSize="@dimen/custom_dialog_accepted2_ok_textView_textSize" />
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <View
+        android:id="@+id/bottom_line_book_now_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_line_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/custom_dialog_guest_bottom_line_book_now_layout_margin_top"
+        android:background="@color/bottom_line_color" />
+
+</LinearLayout>

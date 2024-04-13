@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:background="@color/main_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/fab"
+            android:layout_marginBottom="@dimen/floatingActionButton_margin_bottom"
+            app:backgroundTint="#E91E63"
+            android:src="@mipmap/ic_arrow_forward_white_48dp"
+            app:fabSize="normal" />
+
+        <TextView
+            android:id="@+id/error_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/content_register_activity_screen4_error_message_leftRight"
+            android:layout_marginLeft="@dimen/content_register_activity_screen4_error_message_leftRight"
+            android:layout_marginTop="@dimen/content_register_activity_screen4_error_message_top"
+            android:layout_marginEnd="@dimen/content_register_activity_screen4_error_message_leftRight"
+            android:layout_marginRight="@dimen/content_register_activity_screen4_error_message_leftRight"
+            android:gravity="center"
+            android:text="ERROR"
+            android:textColor="@color/error_message_color"
+            android:textSize="@dimen/error_message_textSize"
+            android:visibility="invisible" />
+
+        <View
+            android:layout_width="@dimen/content_register_activity_screen4_view_widthHeight"
+            android:layout_height="@dimen/content_register_activity_screen4_view_widthHeight"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/content_register_activity_screen4_view_margin_bottom"
+            android:id="@+id/view_above_fab"/>
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_confirm_registration_header_image_height"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/content_register_activity_screen4_header_image_margin_top"
+            android:src="@drawable/hart_logo" />
+
+        <TextView
+            android:id="@+id/subTitle_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="@dimen/content_register_activity_screen4_subTitle_textView_margin_leftRight"
+            android:layout_marginLeft="@dimen/content_register_activity_screen4_subTitle_textView_margin_leftRight"
+            android:layout_marginRight="@dimen/content_register_activity_screen4_subTitle_textView_margin_leftRight"
+            android:layout_marginStart="@dimen/content_register_activity_screen4_subTitle_textView_margin_leftRight"
+            android:layout_marginTop="@dimen/content_register_activity_screen4_subTitle_textView_margin_top"
+            android:gravity="center"
+            android:text="@string/congratulations"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="@dimen/content_register_activity_screen4_subTitle_textView_textSize"
+            android:layout_below="@+id/error_message"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/view_above_fab"
+            android:layout_below="@+id/subTitle_textView"
+            android:layout_marginBottom="@dimen/content_register_activity_screen_4_margin_bottom"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="0sp"
+                    android:layout_height="0sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/layout_center" />
+
+                <TextView
+                    android:id="@+id/app_not_unlocked_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/invisible_view"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="-150dp"
+                    android:gravity="center"
+                    android:text="@string/part_of_community"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/content_register_activity_screen4_app_not_unlcoked_textView_textSize"
+                    android:visibility="invisible"
+                    android:layout_marginRight="@dimen/content_register_activity_screen4_app_not_unlcoked_textView_margin_leftRight"
+                    android:layout_marginLeft="@dimen/content_register_activity_screen4_app_not_unlcoked_textView_margin_leftRight"/>
+
+                <TextView
+                    android:id="@+id/additional_info_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/content_register_activity_screen4_additional_info_textView_margin_bottom"
+                    android:layout_marginEnd="@dimen/content_register_activity_screen4_additional_info_textView_margin_leftRight"
+                    android:layout_marginLeft="@dimen/content_register_activity_screen4_additional_info_textView_margin_leftRight"
+                    android:layout_marginRight="@dimen/content_register_activity_screen4_additional_info_textView_margin_leftRight"
+                    android:layout_marginStart="@dimen/content_register_activity_screen4_additional_info_textView_margin_leftRight"
+                    android:gravity="center"
+                    android:layout_below="@+id/partyImageView"
+                    android:layout_marginTop="50sp"
+                    android:text="@string/part_of_community"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/content_register_activity_screen4_additional_info_textView_textSize" />
+
+
+                <ImageView
+                    android:id="@+id/partyImageView"
+                    android:layout_width="@dimen/content_register_activity_screen4_partyImage_width"
+                    android:layout_height="@dimen/content_register_activity_screen4_partyImage_width"
+                    android:layout_below="@+id/invisible_view"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="-150dp"
+                    android:src="@drawable/party1" />
+
+                <View
+                    android:id="@+id/invisible_view"
+                    android:layout_width="0sp"
+                    android:layout_height="0sp"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#80000000"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/progressbar_color"
+            android:indeterminateTintMode="src_atop" />
+
+    </FrameLayout>
+
+</RelativeLayout>
+

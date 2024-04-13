@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/custom_dialog_host_finished_margin">
+
+    <TextView
+        android:id="@+id/descripton_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/custom_dialog_host_finished_margin_leftRight"
+        android:layout_marginTop="@dimen/custom_dialog_host_finished_description_textView_margin_top"
+        android:layout_marginRight="@dimen/custom_dialog_host_finished_margin_leftRight"
+        android:layout_marginBottom="@dimen/custom_dialog_host_finished_description_textView_margin_bottom"
+        android:gravity="center"
+        android:text="oof"
+        android:textColor="@color/textColorTertiary"
+        android:textSize="@dimen/custom_dialog_host_finished_desciption_textView_textSize" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:layout_centerInParent="true"
+            android:id="@+id/centerView"/>
+
+        <FrameLayout
+            android:id="@+id/yes_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/custom_dialog_host_finished_yes_button_layout_margin_top"
+            android:layout_toLeftOf="@id/centerView"
+            android:layout_toStartOf="@id/centerView"
+            android:layout_marginRight="@dimen/custom_dialog_host_finished_yes_button_layout_margin_right"
+            android:layout_marginEnd="@dimen/custom_dialog_host_finished_yes_button_layout_margin_right"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_host_finished_yes_button_layout_textSize">
+
+            <TextView
+                android:id="@+id/yes_button_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_host_finished_yes_button_textView_height"
+                android:gravity="center"
+                android:text="@string/yes_dialog"
+                android:layout_marginLeft="@dimen/custom_dialog_host_finished_yes_button_textView_margin_leftRight"
+                android:layout_marginStart="@dimen/custom_dialog_host_finished_yes_button_textView_margin_leftRight"
+                android:layout_marginRight="@dimen/custom_dialog_host_finished_yes_button_textView_margin_leftRight"
+                android:layout_marginEnd="@dimen/custom_dialog_host_finished_yes_button_textView_margin_leftRight"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_accepted2_ok_textView_textSize" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/no_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/custom_dialog_host_finished_no_button_layout_margin_top"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_host_finished_no_button_layout_textSize"
+            android:layout_toRightOf="@id/centerView"
+            android:layout_toEndOf="@id/centerView"
+            android:layout_marginLeft="@dimen/custom_dialog_host_finished_no_button_layout_margin_left"
+            android:layout_marginStart="@dimen/custom_dialog_host_finished_no_button_layout_margin_left">
+
+            <TextView
+                android:id="@+id/no_button_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_host_finished_no_button_textView_height"
+                android:gravity="center"
+                android:text="@string/no_dialog"
+                android:layout_marginLeft="@dimen/custom_dialog_host_finished_no_button_textView_margin_leftRight"
+                android:layout_marginStart="@dimen/custom_dialog_host_finished_no_button_textView_margin_leftRight"
+                android:layout_marginRight="@dimen/custom_dialog_host_finished_no_button_textView_margin_leftRight"
+                android:layout_marginEnd="@dimen/custom_dialog_host_finished_no_button_textView_margin_leftRight"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_accepted2_ok_textView_textSize" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/bottom_line_book_now_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_line_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/custom_dialog_host_finished_bottom_line_book_now_layout_margin_top"
+        android:background="@color/bottom_line_color" />
+
+</LinearLayout>

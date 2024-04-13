@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110sp"
+    android:layout_height="110sp">
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_gravity="bottom"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ian" />
+
+    <ImageView
+        android:id="@+id/notificationImageView"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_gravity="top|end"
+        android:adjustViewBounds="true"
+        android:src="@drawable/circle_selected_purple" />
+
+</FrameLayout>

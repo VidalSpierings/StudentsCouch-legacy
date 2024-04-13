@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.studentscouch.projectbostonfiles.ui.StartupActivity">
+
+    <TextView
+        android:id="@+id/select_city_village_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/activity_startup_select_city_village_textView_margin_end_start"
+        android:layout_marginEnd="@dimen/activity_startup_select_city_village_textView_margin_end_start"
+        android:gravity="center"
+        android:text="@string/select_city_village" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_startup_appBar_layout_height"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <FrameLayout
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/logo_imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/activity_startup_logo_imageView_margin"
+                    android:src="@drawable/hart_logo_small"
+                    android:transitionName="@string/sharedactivitytransition_splashscreen_startupactivity" />
+
+                <FrameLayout
+                    android:id="@+id/account_framelayout"
+                    android:layout_width="@dimen/activity_startup_account_frameLayout_width"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/activity_startup_account_frameLayout_margin_top"
+                    android:layout_marginEnd="@dimen/activity_startup_account_frameLayout_margin_right"
+                    android:layout_marginRight="@dimen/activity_startup_account_frameLayout_margin_right"
+                    android:layout_marginBottom="@dimen/activity_startup_account_frameLayout_margin_bottom">
+
+                    <ImageView
+                        android:id="@+id/navigate_to_account_imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/baseline_person_white_48" />
+
+                    <View
+                        android:id="@+id/account_layout_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/buttonClickedColor"
+                        android:visibility="invisible" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/settings_layout"
+                    android:layout_width="@dimen/activity_startup_settings_layout_width"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="@dimen/activity_startup_settings_layout_margin_left"
+                    android:layout_marginLeft="@dimen/activity_startup_settings_layout_margin_left"
+                    android:layout_marginTop="@dimen/activity_startup_settings_layout_margin_top"
+                    android:layout_marginBottom="@dimen/activity_startup_settings_layout_margin_bottom">
+
+                    <ImageView
+                        android:id="@+id/settings_imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/settings" />
+
+                    <View
+                        android:id="@+id/settings_layout_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/buttonClickedColor"
+                        android:visibility="invisible" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/item_layout"
+            android:layout_alignParentStart="true"
+            android:layout_width="@dimen/activity_startup_item_layout_width"
+            android:layout_height="@dimen/activity_startup_item_layout_height"
+            android:layout_below="@+id/appBarLayout"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:transitionName="item_imageView_shared"
+                android:visibility="visible" />
+
+            <View
+                android:id="@+id/imageView_background_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80000000"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/loading"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/activity_startup_textView_textSize"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/floatingActionButton_margin_bottom"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_search_white_48dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#80000000"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/progressbar_color"
+            android:indeterminateTintMode="src_atop" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sharedactivitytransition_splashscreen_startupactivity">fsugyfshgfsdhvj</string>
+
+    <string name="app_name">StudentsBed Alpha</string>
+
+    <!--TODO: nieuw studentsbed email adres creeeren-->
+
+    <!--TODO: insert nieuwe datum van open maken platform-->
+
+    <string name="city_list_item_street_name">Loading&#8230;</string>
+    <string name="city_list_item_price"> </string>
+
+    <string name="city_list_item_person_name"> </string>
+
+    <string name="could_not_retrieve_place_photo">Could not retrieve photo for selected place</string>
+
+    <string name="could_not_retrieve_loc">could not retrieve location</string>
+
+    <string name="info_added_apartment">apartment info has been submitted, you are now a host</string>
+
+    <string name="unknown_error_close_app">An unknown error has occurred. Please restart the application</string>
+
+    <string name="title_activity_register_activty_screen1">unknown</string>
+    <string name="title_activity_register_screen2">unknown</string>
+    <string name="title_activity_register_screen3">unknown</string>
+    <string name="title_activity_register_activty_screen4">unknown</string>
+    <string name="title_activity_startup">unknown</string>
+    <string name="title_activity_user_options">unknown</string>
+    <string name="api_key_djjksdhoahberpow">AIzaSyBwToMZMHN70Y5aGesm7F62s0npHdhBd-s</string>
+
+    <string name="image_not_retrieved">image could not be retrieved</string>
+
+    <string name="delete_dialog">Delete images</string>
+
+    <string name="image_file_not_retrieved">image file could not be retrieved</string>
+
+    <string name="error_unknown_retrieve_image">Unknown error trying to retrieve image</string>
+
+    <string name="unknown_string">UNKNOWN</string>
+
+    <string name="unknown_error_occurred">unknown error occurred</string>
+
+    <string name="yes_string">Yes</string>
+    <string name="no_string">No</string>
+    <string name="startup_text">app name</string>
+
+    <string name="account_doesnt_exist">account doesn\'t exist</string>
+
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="encoding_error">Password encoding error</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="automatic_log_in">remember e-mail</string>
+    <string name="logged_out">logged out</string>
+
+    <string name="could_not_create_user">Could not create user</string>
+
+    <string name="save">save</string>
+
+    <string name="register_activity_screen1_textView">…</string>
+
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+
+    <string name="register_screen2_textView">place of residence</string>
+
+    <string name="take_picture">Take picture</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="additional_information">Additional info</string>
+
+    <string name="we_need_profile_picture">We need your best possible profile picture</string>
+
+    <string name="user_password_non_existent">username or password doesn\'t exist</string>
+
+    <string name="max_num_people">The maximum number of people allowed to stay per booking is 2</string>
+
+    <string name="internet_connection_non_existent">No internet connection found</string>
+
+    <string name="do_you_want_register_as_a_host">Do you want to register as a host?</string>
+
+    <string name="email_username_exists">this e-mail already exists</string>
+
+    <string name="platform_not_available_nonhosts">The platform isn\'t available yet for people who haven\'t registered themselves as hosts</string>
+
+    <string name="looking_good">woah, you look handsome today</string>
+
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <string name="country_name_stock">Country</string>
+
+    <string name="city_name_stock">City</string>
+
+    <string name="time_to_shine">Time to shine</string>
+
+    <string name="not_now">Not now</string>
+
+    <string name="congratulations">Congratulations!</string>
+
+    <string name="part_of_community">Your registration process is now completed, welcome to StudentsBed!</string>
+
+    <string name="take_apartement_photo">We need an image for your listing</string>
+
+    <string name="add_more_photos">You can add more images on the next screen</string>
+
+    <string name="room_or_apartement">Your room or apartment</string>
+
+    <string name="camera">camera</string>
+
+    <string name="gallery_lowercase">gallery</string>
+
+    <string name="cancel">@android:string/cancel</string>
+
+    <string name="add_image">Add pictures</string>
+
+    <string name="price_limit">price per night has to be between $20 and $60</string>
+
+    <string name="birthdate">select date of birth</string>
+
+    <string name="birthdate2">date of birth</string>
+
+    <string name="minimum_age">The required minimum age for users of StudentsBed is 18</string>
+
+    <string name="city_village">City/Village</string>
+
+    <string name="description">Description</string>
+
+    <string name="price_per_night">Price per night</string>
+
+    <string name="enable_location">You have to accept location permissions to make use of StudentsBed</string>
+
+    <string name="no_place_selected">error selecting place</string>
+
+    <string name="place_of_residence">select a city a village</string>
+
+    <string name="maps_error">can\'t connect to Google Maps</string>
+
+    <string name="no_internet_connection">No internet connection found</string>
+
+    <string name="confirm">Confirm</string>
+
+    <string name="profile_picture">profile picture</string>
+
+    <string name="apartement_data">Apartment</string>
+
+    <string name="images">images</string>
+
+    <string name="street">Street</string>
+
+    <string name="house_number">House number</string>
+
+    <string name="title_text">Title</string>
+
+    <string name="facebook_app_id">unknown</string>
+
+    <string name="gender">gender</string>
+
+    <string name="no_header_image">Please choose or take an header image</string>
+
+    <string name="one_picture">Please add at least one picture</string>
+
+    <string name="description_too_long">Listing description is too long</string>
+
+    <string name="listing">Your listing</string>
+
+    <string name="book_now">Book</string>
+
+    <string name="select_street">select street</string>
+
+    <string name="per_night">per night</string>
+
+    <string name="arrival_date">Date of arrival</string>
+
+    <string name="amount_of_people">Number of people</string>
+
+    <string name="amount_of_nights">Number of nights</string>
+
+    <string name="your_booking">Your booking</string>
+
+    <string name="choose_date">Choose date</string>
+
+    <string name="booked_dates">Unavailable data</string>
+
+    <string name="select_add">Select the plus icon to replace your main photo</string>
+
+    <string name="date_already_booked">Unfortunately you\'re too late! Someone has already made a booking on this date</string>
+
+    <string name="no_street_selected">Error selecting street</string>
+
+    <string name="change_password">Change password</string>
+
+    <string name="delete_account">Delete account</string>
+
+    <string name="replace_profile_image">Replace profile picture</string>
+
+    <string name="add_apartement_details">Add apartment details</string>
+
+    <string name="description_report_a_bug">Description</string>
+
+    <string name="could_not_find_email"> We couldn\'t find an e-mail application on your device. If you want to send us an e-mail from a different device, you can send it to studentscouchnl@gmail.com (e-mail address has been copied to clipboard)</string>
+
+    <string name="bug_in_app">Bug in StudentsBed app</string>
+
+    <string name="description_too_long_2">Your description is too long. The maximum number of allowed characters is 200</string>
+
+    <string name="read_ex_storage">The read external storage permission must be accepted in order to replace your image(s)</string>
+
+    <string name="retrieving_data">Retrieving data &#8230;</string>
+
+    <string name="email">E-mail</string>
+
+    <string name="become_host">Become a host</string>
+
+    <string name="personmessaging_introduction_guest1">Dit is het berichten scherm, je kan </string>
+
+    <string name="personmessaging_introduction_guest2">berichten sturen tot </string>
+
+    <string name="personmessaging_introduction_guest3"> je toestemming geeft om een boeking to doen voor </string>
+
+    <string name="personmessaging_introduction_guest4"> apartement. Stel jezelf voor, wees vriendelijk en vraag of de data die je wilt boeken beschikbaar zijn</string>
+
+    <string name="personmessaging_introduction_host1">Dit is het berichtenscherm, je kan </string>
+
+    <string name="street_not_in_city_village">de straat die hebt geselecteert matcht niet met de stad/dorp die je gekozen hebt</string>
+
+    <string name="personmessaging_introduction_host2"> berichten en toestemming geven voor het maken van een boeking door bovenaan op \'geef toestemming\' te drukken. Stel jezelf voor, wees vriendelijk en bespreek welke data beschikbaar zijn voor een boeking.</string>
+
+    <string name="log_out">Log out</string>
+
+    <string name="are_you_sure">Are you sure?</string>
+
+    <string name="yes_dialog">Yes</string>
+
+    <string name="no_dialog">No</string>
+
+    <string name="email_or_password_not_filled_in">e-mail or password not entered in</string>
+
+    <string name="wrong_email_password">e-mail or password is incorrect</string>
+
+    <string name="user_not_found">User not found. Perhaps you made a spelling error in the e-mail box?</string>
+
+    <string name="city_changed">city/village might have changed</string>
+
+    <string name="street_name_reset">street name has been reset</string>
+
+    <string name="logged_in">Welcome!</string>
+
+    <string name="data_could_not_be_send">Data could not be send to our servers, please try again later</string>
+
+    <string name="registration_complete">Registration complete</string>
+
+    <string name="registration_complete1">Thank you for registering. We need some more users before the platform can be unlocked on _Date_ and _time_. \n\n If you know of any people that you\'d see using StudentsBed, please let them know we exist, either through WhatsApp, e-mail, smoke signals or by sending them the link that has been copied to your clipboard</string>
+
+    <string name="booking_country_not_available">apartment hosting is currently restricted to the borders of The Netherlands and Belgium</string>
+
+    <string name="you_need_to_be_online">You need an active internet connection to use StudentsBed</string>
+
+    <string name="log_in_unavailable">The StudentsBed platform isn\'t unlocked yet, so log-in is currently unavailable</string>
+
+    <string name="email_invalid">e-mail address doesn\'t exist</string>
+
+    <string name="hosting_unavailable">You can currently only host apartments that are located inside The United States. We\'ll let you know when hosting becomes available</string>
+
+    <string name="saving_image">Saving image&#8230;</string>
+
+    <string name="preparing_card">Preparing card&#8230;</string>
+
+    <string name="no_storage_card">No storage card found</string>
+
+    <string name="not_enough_space">Not enough storage space</string>
+
+    <string name="somethig_went_wrong_file_not_found">Something went wrong</string>
+
+    <string name="ratings">ratings</string>
+
+    <string name="ok">Okay</string>
+
+    <string name="warning_received1">According to one of your former hosts you did not behave appropriately during one of your stays, for this reason you have received a warning. You now have </string>
+
+    <string name="warning_received2"> warnings in total. At 3 warnings your account will be blocked for 6 months.</string>
+
+    <string name="loading">Loading&#8230;</string>
+
+    <string name="num_days_left">Number of subletting nights left for this year</string>
+
+    <string name="feedback">Thank you for your feedback!</string>
+
+    <string name="feedback2">Thank you for your feedback, the user in question has received warning.</string>
+
+    <string name="stay_ended_host">The stay of your guest will or has been ended today. Has at least one of the guests misbehaved themselves in a big way?</string>
+
+    <string name="enter_iban">We need your IBAN number so we can deposit the earnings you\'ve made from subletting to your bank account. Your IBAN number will be visible to no one else but us, we won\'t share it with third parties, other users, etc. \n\n enter your complete number without any spaces \n\n Example:  NL44RABO0123456789</string>
+
+    <string name="iban_added">Thank you! Your IBAN number has been linked to your account</string>
+
+    <string name="later">Later</string>
+
+    <string name="proceed">Proceed</string>
+
+    <string name="remove_hoststatus">Remove host status</string>
+
+    <string name="add_hoststatus_text">Do you want to add your apartment details?</string>
+
+    <string name="host_status_removed">Host status has been removed!</string>
+
+    <string name="stay_ended_guest1">Your stay with </string>
+    <string name="stay_ended_guest2"> has ended. You can rate your stay from 1 to 5 stars and you can rate how</string>
+    <string name="stay_ended_guest3">has treated you during your stay with the appropriate emoji</string>
+
+    <string name="ratings_submitted">Thank you! Your ratings have been processed</string>
+
+    <string name="hosting_not_available">hosting is currently not available in your country or state. Please restart your registration process as a non-host user</string>
+
+    <string name="save2">save</string>
+
+    <string name="data_changed">data has been changed!</string>
+
+    <string name="function_will_be_added">This function will be implemented in a later version</string>
+
+    <string name="booking_completed">Your booking has been completed.</string>
+
+    <string name="booking_completed2">Have fun in </string>
+
+    <string name="congratulations2">Congratulations!</string>
+
+    <string name="tripadvisor">Go to TripAdvisor</string>
+
+    <string name="iban_in_use">This IBAN number is already in use</string>
+
+    <string name="subletting_room">I\'m going to sublet a room in my living space</string>
+
+    <string name="subletting_apartement">I\'m going to sublet my entire living space</string>
+
+    <string name="wants_to_book1">wants to book your apartment starting from</string>
+
+    <string name="wants_to_book2">for</string>
+
+    <string name="wants_to_book3">nights, your guest will arrive between</string>
+
+    <string name="wants_to_book4">Do you want to accept this request? \n\n select at least one of the boxes and click the \'Yes\' button to proceed</string>
+
+    <string name="between_eight_eleven">8AM and 11:59AM</string>
+
+    <string name="between_twelve_four">12:00 and 4:59PM</string>
+
+    <string name="between_five_ten">5PM and 10PM</string>
+
+    <string name="choose_textbox">Please restart the app and select at least one of the boxes before you click the \'Yes\' button</string>
+
+    <string name="booking_confirmed">Your booking request has been accepted, you will receive a payment deposit when the guest has paid us for his/her booking and the stay has ended</string>
+
+    <string name="booking_declined">We\'re sorry, your booking request has been declined</string>
+
+    <string name="proceed2">proceed</string>
+
+    <string name="booking_accepted">accepted your booking request. Click \'proceed\' to further the booking process.</string>
+
+    <string name="booking_completed3">Your booking has been confirmed. Have fun in</string>
+
+    <string name="booking_request_completed"> has been requested to pay for his/her booking. He/she will stay in your apartment starting from</string>
+
+    <string name="booking_request_completed2">and will spend</string>
+
+    <string name="okay">Oké</string>
+
+    <string name="booking_request_completed3">nights with you. We will inform you when we\'ve deposited the earnings you\'ve made from this booking to your bank account \n\n We will hold</string>
+
+    <string name="booking_request_completed4"> in made earnings from this booking as a commission fee</string>
+
+    <string name="regulations">Certain subletting rules are to be followed for a property located in</string>
+
+    <string name="regulations2">. To prevent yourself from receiving hefty fines we strongly recommend you to click the link below, which will take you to a web page with info about the subletting rules in your area</string>
+
+    <string name="UID_not_retrieved">User ID could not be received</string>
+
+    <string name="booking_values_not_retrieved">Booking data could not be retrieved, please try again later</string>
+
+    <string name="account_blocked">Your account has been blocked because you have received 3 or more warnings for unappropriate behaviour during your stays. You will regain access to your account in</string>
+
+    <string name="january">January</string>
+
+    <string name="february">February</string>
+
+    <string name="march">March</string>
+
+    <string name="april">April</string>
+
+    <string name="may">May</string>
+
+    <string name="june">June</string>
+
+    <string name="july">July</string>
+
+    <string name="august">August</string>
+
+    <string name="september">September</string>
+
+    <string name="october">October</string>
+
+    <string name="november">November</string>
+
+    <string name="december">December</string>
+
+    <string name="account_deleted">Account deletion request was successfully processed. We will remove all your data from the platform shortly</string>
+
+    <string name="apartement_can_not_be_booked">This apartment can not be booked anymore for this year</string>
+
+    <string name="netherlands">The Netherlands</string>
+
+    <string name="cannot_be_booked">This apartment cannot be booked anymore</string>
+
+    <string name="please_scroll">Please scroll down if necessary to see all the fields where information has to be entered in</string>
+
+    <string name="thanks_booking">Thank you for making the booking! We\'ll let you know when the host has approved your booking request</string>
+
+    <string name="could_not_connect_gp">Can\'t connect to Google Play Services</string>
+
+    <string name="select_city_village">Select a city or village by clicking the icon below \n\n (When selecting a particular city or village to find apartments in, please select that village or city directly, if you don\'t do this you want be able to find any listings)</string>
+
+    <string name="note_place_selection">When using the City/Village box to point out where your apartment is located, please select the city or village directly and not a specific location within that city or village. If you select a city or village indirectly no one will be able to find your apartment</string>
+
+    <string name="note_place_selection2">when selecting your location in the \'City/Village\' field, please select your city/village directly (I.E.</string>
+
+    <string name="one_rating">rating</string>
+
+    <string name="under_construction"> StudentsBed is currently under construction, please visit our website for more info</string>
+
+    <string name="please_update">Please update the application in order to continue</string>
+
+    <string name="password_length">Your password must contain at least 8 characters</string>
+
+    <string name="scroll_down_edit_apartement">scroll down and click the \'save\' button to save the changes you\'ve made</string>
+
+    <string name="info_not_loaded">info could not be loaded, please try again later</string>
+
+    <string name="error_unknown">Unknown error received, please restart the app to resolve any occurring issues</string>
+
+    <string name="nights_not_retrieved">Number of nights could not be retrieved, please go back and reselect your number of nights</string>
+
+    <string name="booking_proccessed">Your booking has been processed. We\'ll notify you when the host has accepted your booking request</string>
+
+    <string name="deposit_money">(We highly recommend you screenshot this page, you can only visit it once) Please transfer the above mentioned amount of money to the following debit card number:</string>
+
+    <string name="deposit_money2">\n\n please mention your full name and transaction number mentioned above in the money transfer order description box. Making a payment from a belgian or other SEPA-European checkings account? Look up how to transfer money continentally from your bank, this process can usually be initiated in a few clicks.\n\n The booking will be made official when the StudentsBed team takes notice of your deposit order and has paid the host their part of his or her made earnings. Having trouble with your payment and or booking? send an email to studentscouchnl@gmail.com and we\'ll help you out. \n\n You will be staying in: </string>
+
+    <string name="transaction_id">(transaction ID)</string>
+
+    <string name="could_not_load_data">Couldn\'t load data for recent booking confirmation. Please send an to e-mail studentscouchnl@gmail.com and we\'ll try to resolve the issue</string>
+
+    <string name="iban_not_added">This apartment cannot be booked as of now. Please check back a few days later</string>
+
+    <string name="platform_opens_soon">The platform will be opened soon, there are hosts that need to add some additional information</string>
+
+    <string name="understood">understood</string>
+
+    <string name="booking_accepted_error">Error retrieving data for recently accepted booking</string>
+
+    <string name="bookingaccepted3_text_screenshot">(Please screenshot this page)</string>
+
+    <string name="bookingaccepted3_text1">We have taken notice of a recent payment for one of your bookings, it is now made official. you will stay at</string>
+
+    <string name="bookingaccepted3_text1_host">A user has made a payment for a booking with you, it is now made official. you\'ll stay with</string>
+
+    <string name="bookingaccepted3_text2">starting from</string>
+
+    <string name="bookingaccepted3_text2_host">starting from</string>
+
+    <string name="bookingaccepted3_text3">Your stay will last</string>
+
+    <string name="bookingaccepted3_text3_host">, This stay will last</string>
+
+    <string name="bookingaccepted3_text4">nights. Your guest will arrive between</string>
+
+    <string name="bookingaccepted3_text4_host">nights. You are expect to arrive between</string>
+
+    <string name="camera_unavailable">can\'t use camera, please choose an image from your gallery</string>
+
+    <string name="booking_canceled_nights">Your booking has been cancelled because you\'ve reached the maximum amount of nights available for subletting for this year</string>
+
+    <string name="reselect_field">please reselect this field after accepting location permissions</string>
+
+    <string name="booking_official">Thank you! your booking is officially confirmed now</string>
+
+    <string name="file_size_too_big">file is too big, your file size has to be less than 60MB</string>
+
+    <string name="could_not_connect_google_play_services">Can\'t connect to Google Play Services</string>
+
+    <string name="dutch_date_ordering">(Dutch)</string>
+
+    <string name="unlocked_countries_unavailable">could not retrieve certain server data</string>
+
+    <string name="i_understand">I understand</string>
+
+    <string name="eight_to_eleven_ninetyfive">8AM - 11:59</string>
+
+    <string name="twelve_to_five_fiftynine">12:00 - 4:59PM</string>
+
+    <string name="time_of_arrival">Time of arrival</string>
+
+    <string name="introduction_text_1_string">x</string>
+
+    <string name="five_to_ten">5PM - 10PM</string>
+
+    <string name="loading_bug">Er is een bug in de applicatie die er soms voor zorgt dat dit scherm niet verdwijnt, zelfs als alle data geladen is. Echter kan een trage internetconnectie ook een reden zijn dat dit scherm niet verdwijnt. Als je denkt dat de bug nu actief is verzoeken we je om de app te herstarten, wanneer je dit doet zal het probleem hoogstwaarschijnlijk verholpen worden (Deze bug zal in een latere versie uit de applicatie gehaald worden)</string>
+
+    <string name="city_select_issue">We verzoeken je vriendelijk om je systeemtaal te veranderen naar Engels totdat je registratie voltooid is en te controleren of de naam van het dorp/stad dat je gekozen hebt wordt weergegeven in de Engelse taal, anders werkt de app niet. Dit probleem zal in de toekomst opgelost worden</string>
+
+    <string name="room_sublet">You will stay in a room in the apartment</string>
+
+    <string name="eu_block_active">StudentsBed is temporarily unavailable in your country</string>
+
+    <string name="temp_image_generated">This image was generated for your registration process with StudentsCouch and can now be removed</string>
+
+    <string name="tax_and_service_costs_info">\n\3% of your made earnings will be ceded to StudentsBed as service costs, we also recommend you look up how much money per booking you have to cede to your local municipality in tourist taxes</string>
+
+    <string name="subletting_rules_2">IMPORTANT: Please refer to our subletting regulations document before accepting any bookings. \n\n In order to make use of our platform you are required to find out whether your rent contract legally allows you to sublet your living space. In cases where subletting is prohibited under a specific contract, we advise tenants to contact their landlord with a motivation and explanation that conveys their reasons for seeking the ability to sublet their space, and to not sublet this space without the landlords approval</string>
+
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Mirror</string>
+    <string name="crop_image_menu_flip_horizontally">mirror horizontally</string>
+    <string name="crop_image_menu_flip_vertically">mirror vertically</string>
+
+    <string name="pick_image_intent_chooser_title">Select source</string>
+
+    <string name="crop_image_activity_no_permissions">Will be cancelled, required permissions not accepted</string>
+
+    <string name="report_a_bug">Report a bug</string>
+
+    <string name="found_a_bug">Found a bug? Send us an e-mail describing the problem and we\'ll take a look at it</string>
+
+    <string name="go_to_maps">Go to Google Maps</string>
+    <string name="profile">Profile</string>
+    <string name="apartement">Apartment</string>
+    <string name="max_people">Max. people per stay</string>
+
+    <string name="send_an_email">send an e-mail</string>
+
+    <string name="no_listings_found">No listings found for this place. Have you selected the city/village directly?</string>
+
+    <string name="no_pdf_found">Please download an application to open pdf files with</string>
+
+    <string name="bookingaccepted3_text1_guest">We have taken notice of a payment for one of your bookings, this booking is now officially confirmed. You will be staying with</string>
+
+    <string name="at">at</string>
+
+    <string name="recent_booking_cancelled">a recent booking has been cancelled because you are out of subletting days</string>
+
+    <string name="bookingaccepted3_text3_guest">starting from</string>
+
+    <string name="subletting_regulations">subletting regulations</string>
+
+    <string name="screenshot_dialog">(Please screenshot this dialog) \n\n</string>
+
+    <string name="desc_hint">apartment located near (...), taking a vacation from (...) to (...), is/is not available outside holidays and/or during weekdays, etc</string>
+
+    <string-array name="city_names">
+
+        <item>Amsterdam</item>
+        <item>Rotterdam</item>
+        <item>Utrecht</item>
+        <item>Paris</item>
+        <item>London</item>
+        <item>Antwerp</item>
+        <item>Brussels</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/top_item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_item_top_item_layout_height_2"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:background="@color/item_background">
+
+        <ImageView
+            android:id="@+id/apartement_images_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_item_top_item_layout_apartement_images_imageView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_loading_error" />
+
+        <TextView
+            android:id="@+id/city_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/apartement_images_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/top_item_top_item_city_name_textView_margin_leftRight"
+            android:layout_marginRight="@dimen/top_item_top_item_city_name_textView_margin_leftRight"
+            android:layout_marginTop="@dimen/top_item_top_item_city_name_textView_margin_top"
+            android:gravity="center"
+            android:textColor="@color/textColorTertiary"
+            android:textSize="@dimen/top_item_top_item_city_name_textView_textSize"
+            android:text="@string/city_name_stock" />
+
+        <View
+            android:id="@+id/screen_center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_line_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/bottom_line_color" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/top_item_top_item_imageView2_widthHeight"
+            android:layout_height="@dimen/top_item_top_item_imageView2_widthHeight"
+            android:layout_above="@+id/screen_center"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:src="@mipmap/ic_keyboard_arrow_down_black_48dp" />
+
+        <View
+            android:id="@+id/expandable_menu_click_area"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_item_top_item_expendable_menu_click_area_height"
+            android:layout_above="@+id/screen_center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:id="@+id/expandable_menu_click_visibility"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_item_top_item_expendable_menu_click_visibility_height"
+            android:layout_above="@+id/screen_center"
+            android:layout_alignParentStart="true" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/cityscreen_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_above="@+id/expandable_menu_click_area"
+            android:layout_below="@+id/subtitle_textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/top_item_top_item_cityscreen_viewpager_margin_top"
+            android:layout_marginBottom="@dimen/top_item_top_item_cityscreen_viewpager_margin_bottom"
+            android:gravity="center"
+            android:visibility="gone">
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <TextView
+            android:id="@+id/subtitle_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city_name_textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/top_item_top_item_subtitle_textView_margin_leftRight"
+            android:layout_marginTop="@dimen/top_item_top_item_subtitle_textView_margin_top"
+            android:layout_marginRight="@dimen/top_item_top_item_subtitle_textView_margin_leftRight"
+            android:gravity="center"
+            android:text="@string/netherlands"
+            android:textColor="@color/textColorTertiary"
+            android:textSize="@dimen/top_item_top_item_subtitle_textView_textSize" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ApartementActivity"
+    android:background="@drawable/eiffel_tower_small">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backgroundImage"
+        android:scaleType="centerCrop" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_settings_scrollView_margin"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+
+                    android:id="@+id/become_a_host_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_settings_become_a_host_layout_height"
+                    android:layout_marginTop="@dimen/activity_settings_become_a_host_margin_top"
+                    android:background="@color/item_background">
+
+                    <TextView
+                        android:id="@+id/become_a_host_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_settings_become_a_host_margin_leftRight"
+                        android:layout_marginLeft="@dimen/activity_settings_become_a_host_margin_leftRight"
+                        android:layout_marginEnd="@dimen/activity_settings_become_a_host_margin_leftRight"
+                        android:layout_marginRight="@dimen/activity_settings_become_a_host_margin_leftRight"
+                        android:gravity="center"
+                        android:text="@string/become_host"
+                        android:textColor="@color/textColorTertiary"
+                        android:textSize="@dimen/activity_payment_add_apartement_details_textView_textSize" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_gravity="bottom"
+                        android:background="@color/bottom_line_color" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/log_out_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_settings_log_out_layout_height"
+                    android:layout_marginTop="@dimen/activity_settings_log_out_layout_margin_top"
+                    android:background="@color/item_background">
+
+                    <TextView
+                        android:id="@+id/log_out_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_settings_log_out_textView_margin_leftRight"
+                        android:layout_marginLeft="@dimen/activity_settings_log_out_textView_margin_leftRight"
+                        android:layout_marginEnd="@dimen/activity_settings_log_out_textView_margin_leftRight"
+                        android:layout_marginRight="@dimen/activity_settings_log_out_textView_margin_leftRight"
+                        android:gravity="center"
+                        android:text="@string/log_out"
+                        android:textColor="@color/textColorTertiary"
+                        android:textSize="@dimen/activity_payment_add_apartement_details_textView_textSize" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_gravity="bottom"
+                        android:background="@color/bottom_line_color" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/change_password_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_settings_change_password_layout_height"
+                    android:layout_marginTop="40sp"
+                    android:background="@color/item_background">
+
+                    <TextView
+                        android:id="@+id/change_password_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_settings_change_password_textView_margin_leftRight"
+                        android:layout_marginLeft="@dimen/activity_settings_change_password_textView_margin_leftRight"
+                        android:layout_marginEnd="@dimen/activity_settings_change_password_textView_margin_leftRight"
+                        android:layout_marginRight="@dimen/activity_settings_change_password_textView_margin_leftRight"
+                        android:gravity="center"
+                        android:text="@string/change_password"
+                        android:textColor="@color/textColorTertiary"
+                        android:textSize="@dimen/activity_payment_add_apartement_details_textView_textSize" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_gravity="bottom"
+                        android:background="@color/bottom_line_color" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/delete_password_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_settings_delete_password_layout_height"
+                    android:layout_marginTop="@dimen/activity_settings_delete_password_layout_margin_top"
+                    android:background="@color/item_background">
+
+                    <TextView
+                        android:id="@+id/delete_password_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_settings_delete_password_textView_margin_leftRight"
+                        android:layout_marginLeft="@dimen/activity_settings_delete_password_textView_margin_leftRight"
+                        android:layout_marginEnd="@dimen/activity_settings_delete_password_textView_margin_leftRight"
+                        android:layout_marginRight="@dimen/activity_settings_delete_password_textView_margin_leftRight"
+                        android:gravity="center"
+                        android:text="@string/delete_account"
+                        android:textColor="@color/delete_account_color"
+                        android:textSize="@dimen/activity_settings_delete_password_textView_margin_textSize" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_gravity="bottom"
+                        android:background="@color/bottom_line_color" />
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#80000000"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/progressbar_color"
+            android:indeterminateTintMode="src_atop" />
+
+    </FrameLayout>
+
+</FrameLayout>

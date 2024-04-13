@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.studentscouch.projectbostonfiles">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="false"
+        tools:replace="android:allowBackup"
+
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".StripeTestActivity"></activity>
+        <activity android:name=".dialogs.CustomDialogNoInternetConnection"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBwToMZMHN70Y5aGesm7F62s0npHdhBd-s" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.CityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.RegisterActivtyScreen1"
+            android:label="@string/title_activity_register_activty_screen1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.RegisterActivityScreen2"
+            android:label="@string/title_activity_register_screen2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.RegisterActivityScreen3"
+            android:label="@string/title_activity_register_screen3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.RegisterActivtyScreen4"
+            android:label="@string/title_activity_register_activty_screen4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.RegisterActivityYesScreen1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.RegisterActivityYesScreen2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.RegisterActivityYesScreen3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.StartupActivity"
+            android:label="@string/title_activity_startup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.MadeBookingsActivity" />
+        <activity
+            android:name=".miscellaneous_files.UserOptionsActivity"
+            android:label="@string/title_activity_user_options"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.AccountAndApartementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.PaymentFinishedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ConfirmRegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.BookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.MessagingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.BookingActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.BookingActivity3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ApartementEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ProfileOnlyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ReportABugActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".miscellaneous_files.MyFirebaseInstanceService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+
+            android:name=".miscellaneous_files.NotificationIntentService">
+
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities"
+            android:authorities="sdk.chat">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

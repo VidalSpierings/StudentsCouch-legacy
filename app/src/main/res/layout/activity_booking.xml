@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eiffel_tower_small"
+    tools:context=".ui.BookingActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backgroundImage"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_booking_relativeLayout_margin"
+            android:background="@color/item_background">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bottom_line_color" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/floatingActionButton_margin_bottom"
+                android:clickable="true"
+                android:src="@mipmap/ic_arrow_forward_white_48dp"
+                app:backgroundTint="#E91E63"
+                app:fabSize="mini" />
+
+            <View
+                android:layout_width="0sp"
+                android:layout_height="0sp"
+                android:id="@+id/view_above_fab"
+                android:layout_marginBottom="55sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"/>
+
+            <TextView
+                android:id="@+id/arrival_date_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_booking_arrival_date_textView_margin_leftRight"
+                android:layout_marginTop="@dimen/activity_booking_arrival_date_textView_margin_top"
+                android:layout_marginRight="@dimen/activity_booking_arrival_date_textView_margin_leftRight"
+                android:gravity="center"
+                android:text="@string/arrival_date"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/activity_booking_arrival_date_textView_textSize" />
+
+            <TextView
+                android:id="@+id/dates_booked_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choose_date_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_booking_dates_booked_textView_margin_top"
+                android:text="@string/booked_dates"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/activity_booking_dates_booked_textView_textSize" />
+
+            <TextView
+                android:id="@+id/month_year_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/arrival_date_textView"
+                android:layout_marginLeft="@dimen/activity_booking_arrival_month_year_textView_margin_leftRight"
+                android:layout_marginTop="@dimen/activity_booking_arrival_month_year_textView_margin_top"
+                android:layout_marginRight="@dimen/activity_booking_arrival_month_year_textView_margin_leftRight"
+                android:gravity="center"
+                android:text="December - 2018"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/activity_booking_month_year_textView_textSize"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/date_relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+
+            <TextView
+                android:id="@+id/date_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/month_year_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_booking_date_textView_marginTop"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/activity_booking_scrollView_textSize"
+                tools:visibility="visible" />
+
+            <FrameLayout
+                android:id="@+id/choose_date_layout"
+                android:layout_width="@dimen/activity_booking_choose_date_layout_width"
+                android:layout_height="@dimen/activity_booking_choose_date_layout_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_booking_choose_date_layout_margin_top"
+                android:background="@color/buttonColorTertiary"
+                android:gravity="center"
+                android:text="@string/go_to_maps"
+                android:textColor="@color/gmaps_textColor"
+                android:textSize="@dimen/activity_booking_choose_date_layout_textSize"
+                android:layout_below="@+id/date_textView"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/choose_date_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/choose_date"
+                    android:textColor="@color/buttonColorTertiaryTextColor"
+                    android:textSize="@dimen/activity_booking_choose_date_textView_textSize" />
+
+            </FrameLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/view_above_fab"
+                android:layout_below="@+id/dates_booked_textView"
+                android:layout_marginLeft="@dimen/activity_booking_scrollView_margin_rightLeft"
+                android:layout_marginTop="@dimen/activity_booking_scrollView_margin_top"
+                android:layout_marginRight="@dimen/activity_booking_scrollView_margin_rightLeft"
+                android:layout_marginBottom="@dimen/activity_booking_scrollView_margin_bottom"
+                android:overScrollMode="never">
+
+                    <LinearLayout
+                        android:id="@+id/booked_dates_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_booking_dates_layout_margin_top"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+            </ScrollView>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#80000000"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/progressbar_color"
+            android:indeterminateTintMode="src_atop" />
+
+    </FrameLayout>
+
+</RelativeLayout>

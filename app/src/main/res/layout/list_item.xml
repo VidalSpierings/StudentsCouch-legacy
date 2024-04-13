@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/list_item_imageView"
+        android:layout_width="@dimen/list_item_list_item_imageView_widthHeight"
+        android:layout_height="@dimen/list_item_list_item_imageView_widthHeight"
+        android:src="@drawable/square"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/bottom_line"
+        android:layout_height="@dimen/bottom_line_height"
+        android:background="@color/bottom_line_color"
+        android:layout_below="@+id/list_item_imageView" />
+
+    <TextView
+        android:id="@+id/middle_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/list_item_imageView"
+        android:layout_toRightOf="@+id/list_item_imageView"
+        android:gravity="start"
+        android:paddingLeft="@dimen/list_item_middle_textView_padding_leftRight"
+        android:paddingRight="@dimen/list_item_middle_textView_padding_leftRight"
+        android:text="@string/city_list_item_street_name"
+        android:textColor="@color/textColorTertiary"
+        android:textSize="@dimen/list_item_middle_textView_textSize" />
+
+    <TextView
+        android:text="@string/city_list_item_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/list_item_imageView"
+        android:layout_toEndOf="@+id/list_item_imageView"
+        android:gravity="center"
+        android:id="@+id/top_textView"
+        android:textColor="@color/price_color"
+        android:textSize="@dimen/list_item_top_textView_textSize" />
+
+    <ImageView
+        android:id="@+id/profile_imageView"
+        android:layout_width="@dimen/list_item_profile_imageView_widthHeight"
+        android:layout_height="@dimen/list_item_profile_imageView_widthHeight"
+        android:layout_above="@+id/bottom_line"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/list_item_profile_imageView_margin_right"
+        android:layout_marginRight="@dimen/list_item_profile_imageView_margin_right"
+        android:layout_marginBottom="@dimen/list_item_profile_imageView_margin_bottom"
+        android:src="@drawable/pf"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="@string/city_list_item_person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/list_item_imageView"
+        android:layout_toEndOf="@+id/list_item_imageView"
+        android:id="@+id/textView3"
+        android:gravity="end"
+        android:textSize="@dimen/list_item_textView3_textSize"
+        android:textColor="@color/textColorTertiary"
+        android:layout_alignBottom="@+id/profile_imageView"
+        android:layout_toLeftOf="@+id/profile_imageView"
+        android:layout_toStartOf="@+id/profile_imageView"
+        android:layout_marginRight="@dimen/list_item_textView3_margin_right"
+        android:layout_marginEnd="@dimen/list_item_textView3_margin_right"/>
+
+    <ImageView
+        android:id="@+id/rating_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item_rating_imageView_height"
+        android:layout_above="@+id/profile_imageView"
+        android:layout_marginStart="@dimen/list_item_rating_imageView_margin_left"
+        android:layout_marginLeft="@dimen/list_item_rating_imageView_margin_left"
+        android:layout_toEndOf="@+id/list_item_imageView"
+        android:layout_toRightOf="@+id/list_item_imageView"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/five_stars" />
+
+</RelativeLayout>

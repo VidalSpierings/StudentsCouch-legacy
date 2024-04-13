@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="50sp">
+
+    <TextView
+        android:id="@+id/descripton_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/custom_dialog_with_button_description_textView_margin_leftRight"
+        android:layout_marginTop="@dimen/activity_custom_dialog_no_internet_connection_descripton_textView_margin_top"
+        android:layout_marginRight="@dimen/custom_dialog_with_button_description_textView_margin_leftRight"
+        android:layout_marginBottom="@dimen/activity_custom_dialog_no_internet_connection_descripton_textView_margin_bottom"
+        android:gravity="center"
+        android:text="@string/no_internet_connection"
+        android:textColor="@color/textColorTertiary"
+        android:textSize="@dimen/custom_dialog_with_button_description_textView_textSize" />
+
+
+    <View
+        android:id="@+id/bottom_line_book_now_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_line_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/activity_custom_dialog_no_internet_connection_bottom_line_book_now_layout_margin_top"
+        android:background="@color/bottom_line_color" />
+
+</LinearLayout>

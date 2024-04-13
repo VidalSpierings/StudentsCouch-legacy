@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eiffel_tower_small"
+    tools:context=".ui.ApartementActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_apartement_edit_scrollView_margin"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/top_item_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/activity_apartement_edit_top_item_layout_height"
+                    android:layout_below="@+id/toolbar"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/item_background">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/apartement_images_imageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="false"
+                            android:overScrollMode="never"
+                            android:scaleType="centerCrop" />
+
+                        <LinearLayout
+                            android:id="@+id/slideDotsPanel"
+                            android:layout_width="@dimen/activity_apartement_edit_slideDotsPanel_width"
+                            android:layout_height="@dimen/activity_apartement_edit_slideDotsPanel_height"
+                            android:layout_gravity="bottom|center"
+                            android:layout_marginBottom="@dimen/activity_apartement_edit_slideDotsPanel_margin_bottom"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/add_image_layout"
+                            android:layout_width="@dimen/activity_apartement_edit_add_image_layout_widthHeight"
+                            android:layout_height="@dimen/activity_apartement_edit_add_image_layout_widthHeight"
+                            android:layout_gravity="top|end"
+                            android:layout_marginEnd="@dimen/activity_apartement_edit_add_image_layout_margin_right"
+                            android:layout_marginRight="@dimen/activity_apartement_edit_add_image_layout_margin_right">
+
+                            <ImageView
+                                android:id="@+id/add_imageView"
+                                android:layout_width="@dimen/activity_apartement_edit_add_imageView_widthHeight"
+                                android:layout_height="@dimen/activity_apartement_edit_add_imageView_widthHeight"
+                                android:layout_gravity="center"
+                                android:src="@drawable/baseline_add_grey" />
+
+                            <View
+                                android:id="@+id/add_buton_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/message_button_background"
+                                android:visibility="invisible" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/delete_image_layout"
+                            android:layout_width="@dimen/activity_apartement_edit_delete_image_layout_widthHeight"
+                            android:layout_height="@dimen/activity_apartement_edit_delete_image_layout_widthHeight"
+                            android:layout_gravity="top|start"
+                            android:layout_marginEnd="@dimen/activity_apartement_edit_delete_image_layout_margin_right"
+                            android:layout_marginRight="@dimen/activity_apartement_edit_delete_image_layout_margin_right">
+
+                            <ImageView
+                                android:id="@+id/delete_imageView"
+                                android:layout_width="@dimen/activity_apartement_edit_delete_imageView_widthHeight"
+                                android:layout_height="@dimen/activity_apartement_edit_delete_imageView_widthHeight"
+                                android:layout_gravity="center"
+                                android:src="@drawable/baseline_delete_grey" />
+
+                            <View
+                                android:id="@+id/delete_button_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/message_button_background"
+                                android:visibility="invisible" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <View
+                        android:id="@+id/bottom_line_top_item_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/bottom_line_color" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/description_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_apartement_edit_description_layout_margin_top"
+                    android:background="@color/item_background"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/letter_count_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|top"
+                        android:layout_marginEnd="@dimen/activity_apartement_edit_letter_count_textView_margin_right"
+                        android:layout_marginRight="@dimen/activity_apartement_edit_letter_count_textView_margin_right"
+                        android:gravity="top|center_horizontal|end"
+                        android:padding="@dimen/activity_apartement_edit_letter_count_textView_padding"
+                        android:text="-0"
+                        android:textColor="@color/error_message_color"
+                        android:visibility="visible" />
+
+                    <EditText
+                        android:id="@+id/description_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/activity_apartement_edit_description_title_margin"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:maxLength="150"
+                        android:text="@string/loading"
+                        android:textColor="@color/textColorTertiary"
+                        android:textSize="@dimen/activity_apartement_edit_description_title_textSize" />
+
+                    <FrameLayout
+                        android:id="@+id/description_description_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/activity_apartement_edit_description_description_margin_bottom"
+                        android:layout_weight="1">
+
+                        <EditText
+                            android:id="@+id/description_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center|top"
+                            android:padding="@dimen/activity_apartement_edit_description_description_padding"
+                            android:text="@string/loading"
+                            android:textColor="@color/textColorTertiary"
+                            android:textSize="@dimen/activity_apartement_edit_description_description_textSize" />
+
+                    </FrameLayout>
+
+                    <View
+                        android:id="@+id/bottom_line_description_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_gravity="bottom"
+                        android:background="@color/bottom_line_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/num_people_per_stay_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_apartement_edit_num_people_per_stay_layout_height"
+                    android:layout_marginTop="@dimen/activity_apartement_edit_num_people_per_stay_layout_margin_top"
+                    android:background="@color/item_background"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/num_people_per_stay_desc_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/activity_apartement_edit_num_people_per_stay_desc_textView_margin"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/max_people"
+                        android:textColor="@color/textColorTertiary"
+                        android:textSize="@dimen/activity_apartement_edit_num_people_per_stay_desc_textView_textSize" />
+
+                    <FrameLayout
+                        android:id="@+id/num_people_per_stay_num_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/activity_apartement_edit_num_people_per_stay_num_layout_height"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/activity_apartement_edit_num_people_per_stay_num_layout_margin_bottom"
+                        android:layout_weight="1"
+                        android:background="@color/buttonColorTertiary"
+                        android:gravity="center"
+                        android:text="@string/go_to_maps"
+                        android:textColor="@color/gmaps_textColor"
+                        android:textSize="@dimen/activity_apartement_edit_num_people_per_stay_num_layout_textSize">
+
+                        <EditText
+                            android:id="@+id/num_people_per_stay_num_editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/activity_apartement_edit_num_people_per_stay_num_editText_margin_leftRight"
+                            android:layout_marginLeft="@dimen/activity_apartement_edit_num_people_per_stay_num_editText_margin_leftRight"
+                            android:layout_marginEnd="@dimen/activity_apartement_edit_num_people_per_stay_num_editText_margin_leftRight"
+                            android:layout_marginRight="@dimen/activity_apartement_edit_num_people_per_stay_num_editText_margin_leftRight"
+                            android:background="@null"
+                            android:digits="12"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:text="1"
+                            android:textColor="@color/buttonColorTertiaryTextColor"
+                            android:textSize="@dimen/activity_apartement_edit_num_people_per_stay_num_editText_textSize" />
+
+                    </FrameLayout>
+
+
+                    <View
+                        android:id="@+id/bottom_line_num_people_per_stay_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_gravity="bottom"
+                        android:background="@color/bottom_line_color" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/price_per_night_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_apartement_edit_price_per_night_layout_height"
+                    android:layout_marginTop="@dimen/activity_apartement_edit_price_per_night_layout_margin_top"
+                    android:background="@color/item_background"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/currency_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/activity_apartement_edit_currency_text_margin_top"
+                        android:layout_marginEnd="@dimen/activity_apartement_edit_currency_text_margin_right"
+                        android:layout_marginRight="@dimen/activity_apartement_edit_currency_text_margin_right"
+                        android:layout_marginBottom="@dimen/activity_apartement_edit_currency_text_margin_bottom"
+                        android:layout_toStartOf="@+id/price_per_night_editText"
+                        android:layout_toLeftOf="@+id/price_per_night_editText"
+                        android:gravity="center"
+                        android:text="€ "
+                        android:textColor="@color/price_color"
+                        android:textSize="@dimen/activity_apartement_edit_currency_text_textSize" />
+
+                    <EditText
+                        android:id="@+id/price_per_night_editText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/activity_apartement_edit_price_per_night_editText_margin_top"
+                        android:layout_marginBottom="@dimen/activity_apartement_edit_price_per_night_editText_margin_bottom"
+                        android:background="@null"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:text="0"
+                        android:textColor="@color/price_color"
+                        android:textSize="@dimen/activity_apartement_edit_price_per_night_editText_textSize" />
+
+                    <TextView
+                        android:id="@+id/per_night_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="@dimen/activity_apartement_edit_per_night_textView_margin_left"
+                        android:layout_marginLeft="@dimen/activity_apartement_edit_per_night_textView_margin_left"
+                        android:layout_marginTop="@dimen/activity_apartement_edit_per_night_textView_margin_top"
+                        android:layout_marginBottom="@dimen/activity_apartement_edit_per_night_textView_margin_bottom"
+                        android:layout_toEndOf="@+id/price_per_night_editText"
+                        android:layout_toRightOf="@+id/price_per_night_editText"
+                        android:text="@string/per_night"
+                        android:textColor="@color/price_color"
+                        android:textSize="@dimen/activity_apartement_edit_per_night_textView_textSize" />
+
+
+                    <View
+                        android:id="@+id/bottom_line_book_now_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/bottom_line_color" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/save_data__item_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_apartement_edit_save_data_item_layout_height"
+                    android:layout_marginTop="@dimen/activity_apartement_edit_save_data_item_layout_margin_top"
+                    android:background="@color/item_background"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/save_data_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/activity_apartement_edit_save_data2_item_layout_height"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/activity_apartement_edit_save_data2_item_layout_margin_top"
+                        android:background="@color/buttonColorTertiary"
+                        android:textColor="@color/gmaps_textColor"
+                        android:textSize="@dimen/activity_apartement_edit_save_data2_item_layout_textSize">
+
+                        <TextView
+                            android:id="@+id/save_data_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/activity_apartement_edit_save_data_textView_margin_leftRight"
+                            android:layout_marginLeft="@dimen/activity_apartement_edit_save_data_textView_margin_leftRight"
+                            android:layout_marginEnd="@dimen/activity_apartement_edit_save_data_textView_margin_leftRight"
+                            android:layout_marginRight="@dimen/activity_apartement_edit_save_data_textView_margin_leftRight"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:text="@string/save2"
+                            android:textColor="@color/buttonColorTertiaryTextColor"
+                            android:textSize="@dimen/activity_apartement_edit_save_data_textView_textSize" />
+
+                    </FrameLayout>
+
+
+                    <View
+                        android:id="@+id/bottom_line_save_data_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottom_line_height"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/bottom_line_color" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/progressbar_color"
+            android:indeterminateTintMode="src_atop" />
+
+    </FrameLayout>
+
+</FrameLayout>

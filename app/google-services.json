@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "4390649678",
+    "firebase_url": "https://studentscouch-d43a5.firebaseio.com",
+    "project_id": "studentscouch-d43a5",
+    "storage_bucket": "studentscouch-d43a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4390649678:android:59383ca6b17bc4d1",
+        "android_client_info": {
+          "package_name": "com.studentscouch.projectbostonfiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4390649678-3s015c807t9d172kkpckcvdsl3s1cmeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studentscouch.projectbostonfiles",
+            "certificate_hash": "f47a471db65526246195d2c90b3f11e4af407d1b"
+          }
+        },
+        {
+          "client_id": "4390649678-iu0igifg3riiiovu8i84dqkp2h1drv7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAd8MBLG9cypIr7qfD7hiQs_kojjLeTlk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4390649678-iu0igifg3riiiovu8i84dqkp2h1drv7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

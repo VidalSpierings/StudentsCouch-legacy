@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/custom_dialog_user_stay_ended_1">
+
+    <TextView
+        android:id="@+id/descripton_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_2"
+        android:layout_marginBottom="@dimen/custom_dialog_user_stay_ended_3"
+        android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_4"
+        android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_4"
+        android:gravity="center"
+        android:text="oof"
+        android:textColor="@color/textColorTertiary"
+        android:textSize="@dimen/custom_dialog_user_stay_ended_5" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_6">
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/centerView"/>
+
+        <FrameLayout
+            android:id="@+id/one_star_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_7"
+            android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_7"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_8"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:layout_toStartOf="@+id/centerView"
+            android:layout_toLeftOf="@+id/centerView"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_9">
+
+            <TextView
+                android:id="@+id/one_star_button_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_10"
+                android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_11"
+                android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_11"
+                android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_11"
+                android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_11"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_user_stay_ended_12" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/one_and_a_half_stars_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_13"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_14"
+            android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_15"
+            android:layout_toRightOf="@+id/centerView"
+            android:layout_toEndOf="@+id/centerView"
+            android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_15">
+
+            <TextView
+                android:id="@+id/one_and_a_half_stars_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_16"
+                android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_17"
+                android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_17"
+                android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_17"
+                android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_17"
+                android:gravity="center"
+                android:text="1.5"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_user_stay_ended_18" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/centerView2"/>
+
+        <FrameLayout
+            android:id="@+id/two_stars_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_19"
+            android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_19"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_20"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:layout_toStartOf="@+id/centerView2"
+            android:layout_toLeftOf="@+id/centerView2"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_21">
+
+            <TextView
+                android:id="@+id/two_stars_button_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_22"
+                android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_23"
+                android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_23"
+                android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_23"
+                android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_23"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_user_stay_ended_24" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/two_and_a_half_stars_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_25"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_26"
+            android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_27"
+            android:layout_toRightOf="@+id/centerView2"
+            android:layout_toEndOf="@+id/centerView2"
+            android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_27">
+
+            <TextView
+                android:id="@+id/two_and_a_half_stars_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_28"
+                android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_29"
+                android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_29"
+                android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_29"
+                android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_29"
+                android:gravity="center"
+                android:text="2.5"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_user_stay_ended_30" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/centerView3"/>
+
+        <FrameLayout
+            android:id="@+id/three_stars_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_31"
+            android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_31"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_32"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:layout_toStartOf="@+id/centerView3"
+            android:layout_toLeftOf="@+id/centerView3"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_33">
+
+            <TextView
+                android:id="@+id/three_stars_button_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_34"
+                android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_35"
+                android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_35"
+                android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_35"
+                android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_35"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_user_stay_ended_36" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/three_and_a_half_stars_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_37"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_38"
+            android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_39"
+            android:layout_toRightOf="@+id/centerView3"
+            android:layout_toEndOf="@+id/centerView3"
+            android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_39">
+
+            <TextView
+                android:id="@+id/three_and_a_half_stars_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_40"
+                android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_41"
+                android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_41"
+                android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_41"
+                android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_41"
+                android:gravity="center"
+                android:text="3.5"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_user_stay_ended_42" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/centerView4"/>
+
+        <FrameLayout
+            android:id="@+id/four_stars_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_43"
+            android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_43"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_43"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:layout_toStartOf="@+id/centerView4"
+            android:layout_toLeftOf="@+id/centerView4"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_44">
+
+            <TextView
+                android:id="@+id/four_stars_button_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_45"
+                android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_46"
+                android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_46"
+                android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_46"
+                android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_46"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_user_stay_ended_47" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/four_and_a_half_stars_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_48"
+            android:background="@color/buttonColorTertiary"
+            android:gravity="center"
+            android:text="@string/go_to_maps"
+            android:textColor="@color/gmaps_textColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_49"
+            android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_50"
+            android:layout_toRightOf="@+id/centerView4"
+            android:layout_toEndOf="@+id/centerView4"
+            android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_50">
+
+            <TextView
+                android:id="@+id/four_and_a_half_stars_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_51"
+                android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_52"
+                android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_52"
+                android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_52"
+                android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_52"
+                android:gravity="center"
+                android:text="4.5"
+                android:textColor="@color/buttonColorTertiaryTextColor"
+                android:textSize="@dimen/custom_dialog_user_stay_ended_53" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/five_stars_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_54"
+        android:background="@color/buttonColorTertiary"
+        android:gravity="center"
+        android:text="@string/go_to_maps"
+        android:textColor="@color/gmaps_textColor"
+        android:textSize="@dimen/custom_dialog_user_stay_ended_55">
+
+        <TextView
+            android:id="@+id/five_stars_textView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_dialog_user_stay_ended_56"
+            android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_57"
+            android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_57"
+            android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_57"
+            android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_57"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/buttonColorTertiaryTextColor"
+            android:textSize="@dimen/custom_dialog_user_stay_ended_58" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_59">
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/centerView5"/>
+
+        <FrameLayout
+            android:id="@+id/happy_emoji_layout"
+            android:layout_width="@dimen/custom_dialog_guest_booking_happy_emoji_layout_width_height"
+            android:layout_height="@dimen/custom_dialog_guest_booking_happy_emoji_layout_width_height"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_62"
+            android:layout_marginEnd="@dimen/custom_dialog_user_stay_ended_61"
+            android:layout_marginRight="@dimen/custom_dialog_user_stay_ended_61"
+            android:layout_toStartOf="@+id/centerView5"
+            android:layout_toLeftOf="@+id/centerView5"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/happy_emoji"
+                android:layout_width="@dimen/custom_dialog_user_stay_ended_63"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_63"
+                android:layout_gravity="center"
+                android:background="@drawable/happy_emoji">
+
+            </ImageView>
+
+            <View
+                android:id="@+id/happy_emoji_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/half_transparent_color"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/unhappy_emoji_layout"
+            android:layout_width="@dimen/custom_dialog_guest_booking_unhappy_emoji_layout_width_height"
+            android:layout_height="@dimen/custom_dialog_guest_booking_unhappy_emoji_layout_width_height"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/custom_dialog_user_stay_ended_65"
+            android:layout_marginLeft="@dimen/custom_dialog_user_stay_ended_65"
+            android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_64"
+            android:layout_toEndOf="@+id/centerView5"
+            android:layout_toRightOf="@+id/centerView5"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/unhappy_emoji"
+                android:layout_width="@dimen/custom_dialog_user_stay_ended_63"
+                android:layout_height="@dimen/custom_dialog_user_stay_ended_63"
+                android:layout_gravity="center"
+                android:background="@drawable/unhappy_emoji">
+
+            </ImageView>
+
+            <View
+                android:id="@+id/unhappy_emoji_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/half_transparent_color"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_66"
+        android:layout_marginBottom="0sp"
+        android:clickable="true"
+        android:src="@mipmap/ic_arrow_forward_white_48dp"
+        android:visibility="invisible"
+        app:backgroundTint="#E91E63"
+        app:fabSize="mini" />
+
+
+    <View
+        android:id="@+id/bottom_line_book_now_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_line_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/custom_dialog_user_stay_ended_67"
+        android:background="@color/bottom_line_color" />
+
+</LinearLayout>

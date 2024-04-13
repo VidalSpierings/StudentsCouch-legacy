@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes_string">Ja</string>
+    <string name="no_string">Nee</string>
+    <string name="introduction_text_1_string">x</string>
+    <string name="startup_text">StudentsBed</string>
+
+    <string name="log_in">Log in</string>
+    <string name="register">Registreer</string>
+    <string name="encoding_error">error</string>
+
+    <string name="username">Gebruikersnaam</string>
+    <string name="password">Wachtwoord</string>
+    <string name="automatic_log_in">e-mail onthouden</string>
+    <string name="logged_out">logged out</string>
+
+    <string name="could_not_retrieve_loc">locatie kan niet worden opgehaald</string>
+
+    <string name="delete_dialog">Verwijder afbeeldingen</string>
+
+    <string name="info_added_apartment">gegevens van het apartement zijn opgegeven, je bent nu een host</string>
+
+    <string name="unknown_error_close_app">Er is een onbekende fout opgetreden. Gelieve de applicatie te herstarten</string>
+
+    <string name="unknown_error_occurred">er is een onbekende fout opgetreden</string>
+
+    <string name="could_not_retrieve_place_photo">Kon geen foto\'s ophalen voor geselecteerde locatie</string>
+
+    <string name="unknown_string">ONBEKEND</string>
+
+    <string name="account_doesnt_exist">account bestaat niet</string>
+
+    <string name="save">opslaan</string>
+
+    <string name="register_activity_screen1_textView">…</string>
+
+    <string name="image_not_retrieved">afbeelding kon niet worden opgehaald</string>
+
+    <string name="image_file_not_retrieved">afbeeldingsbestand kon niet worden opgehaald</string>
+
+    <string name="could_not_create_user">Gebruiker kon niet aangemaakt worden</string>
+
+    <string name="error_unknown_retrieve_image">Onbekende fout bij ophalen van afbeelding</string>
+
+    <string name="firstName">Voornaam</string>
+    <string name="lastName">Achternaam</string>
+
+    <string name="register_screen2_textView">woonplaats</string>
+
+    <string name="take_picture">Neem foto</string>
+    <string name="gallery">Galerij</string>
+
+    <string name="additional_information">Aanvullende gegevens</string>
+
+    <string name="we_need_profile_picture">We hebben je best mogelijke profielfoto nodig</string>
+
+    <string name="user_password_non_existent">gebruikersnaam of wachtwoord bestaat niet </string>
+
+    <string name="max_num_people">Het maximum aantal personen dat tegelijkertijd per boeking kan verblijven is</string>
+
+    <string name="internet_connection_non_existent">Geen internetverbinding gevonden</string>
+
+    <string name="do_you_want_register_as_a_host">Wil je jezelf aanmelden als host?</string>
+
+    <string name="email_username_exists">e-mail bestaat al</string>
+
+    <string name="platform_not_available_nonhosts">Het platform is nog niet beschikbaar voor mensen die zich niet als host hebben geregistreerd</string>
+
+    <string name="looking_good">wauw, je ziet er goed uit vandaag</string>
+
+    <string name="something_went_wrong">Er is iets fout gegaan</string>
+
+    <string name="country_name_stock">Land</string>
+
+    <string name="city_name_stock">Stad</string>
+
+    <string name="time_to_shine">Time to shine</string>
+
+    <string name="not_now">Niet nu</string>
+
+    <string name="congratulations">Gefeliciteerd!</string>
+
+    <string name="part_of_community">Je bent nu geregistreerd bij StudentsBed</string>
+
+    <string name="take_apartement_photo">We hebben een foto nodig voor je listing</string>
+
+    <string name="add_more_photos">Je kan op het volgende scherm meer foto\'s toevoegen</string>
+
+    <string name="room_or_apartement">Je kamer of apartement</string>
+
+    <string name="camera">camera</string>
+
+    <string name="gallery_lowercase">gallerij</string>
+
+    <string name="cancel">annuleer</string>
+
+    <string name="add_image">Foto toevoegen</string>
+
+    <string name="price_limit">Tarieven lager dan $20 en hoger dan $60 per nacht zijn niet toegestaan</string>
+
+    <string name="birthdate">selecteer geboortedatum</string>
+
+    <string name="birthdate2">geboortedatum</string>
+
+    <string name="minimum_age">De minimumleeftijd voor gebruikers van StudentsBed is achttien jaar</string>
+
+    <string name="city_village">Stad/Dorp</string>
+
+    <string name="description">Omschrijving</string>
+
+    <string name="price_per_night">Prijs per nacht</string>
+
+    <string name="enable_location">Locatie machtigingen dienen geaccepteerd te worden om StudentsBed te gebruiken</string>
+
+    <string name="no_place_selected">error bij selecteren plaats</string>
+
+    <string name="place_of_residence">selecteer een stad of dorp</string>
+
+    <string name="maps_error">kan niet verbinden met Google Maps</string>
+
+    <string name="no_internet_connection">geen internetverbinding gevonden</string>
+
+    <string name="confirm">Bevestigen</string>
+
+    <string name="profile_picture">profielfoto</string>
+
+    <string name="apartement_data">Apartement</string>
+
+    <string name="images">afbeeldingen</string>
+
+    <string name="street">Straat</string>
+
+    <string name="house_number">Huisnummer</string>
+
+    <string name="title_text">Titel</string>
+
+    <string name="gender">geslacht</string>
+
+    <string name="no_header_image">Kies of maak A.U.B. een hoofdfoto</string>
+
+    <string name="one_picture">Voeg A.U.B. minstens één foto toe</string>
+
+    <string name="description_too_long">Omschrijving listing is te lang</string>
+
+    <string name="listing">Je listing</string>
+
+    <string name="book_now">Boek</string>
+
+    <string name="select_street">selecteer straat</string>
+
+    <string name="per_night">per nacht</string>
+
+    <string name="arrival_date">Aankomstdatum</string>
+
+    <string name="amount_of_people">Aantal personen</string>
+
+    <string name="amount_of_nights">Aantal nachten</string>
+
+    <string name="your_booking">Je boeking</string>
+
+    <string name="choose_date">Kies datum</string>
+
+    <string name="booked_dates">niet beschikbare data</string>
+
+    <string name="select_add">Selecteer het plus icoon indien om de header foto wilt wijzigen</string>
+
+    <string name="date_already_booked">Iemand was je voor! er is al een boeking gemaakt op deze datum</string>
+
+    <string name="no_street_selected">Error bij selecteren straat</string>
+
+    <string name="change_password">Verander wachtwoord</string>
+
+    <string name="delete_account">Verwijder account</string>
+
+    <string name="replace_profile_image">Vervang profielfoto</string>
+
+    <string name="add_apartement_details">details apartement toevoegen</string>
+
+    <string name="description_report_a_bug">Omschrijving</string>
+
+    <!--TODO: nieuw studentsbed email adres creeeren-->
+
+    <string name="could_not_find_email">We konden geen email applicatie vinden op je apparaat. Als je ons vanaf een ander apparaat een e-mail wilt sturen, kun je deze verzenden naar studentscouchnl@gmail.com (email adres is gekopieerd)</string>
+
+    <string name="bug_in_app">Bug in StudentsBed app</string>
+
+    <string name="description_too_long_2">Je omschrijving is te lang. Het maximum aantal toegestaande karakters is 200</string>
+
+    <string name="read_ex_storage">het accepteren van de \'lees externe opslag\' machtiging is veriest voor het vervangen van je afbeelding // afbeeldingen</string>
+
+    <string name="retrieving_data">Data aan het ophalen &#8230;</string>
+
+    <string name="email">E-mail</string>
+
+    <string name="become_host">Host worden</string>
+
+    <string name="personmessaging_introduction_guest1">Dit is het berichten scherm, je kan </string>
+
+    <string name="personmessaging_introduction_guest2">berichten sturen tot </string>
+
+    <string name="personmessaging_introduction_guest3"> je toestemming geeft om een boeking to doen voor </string>
+
+    <string name="personmessaging_introduction_guest4"> apartement. Stel jezelf voor, wees vriendelijk en vraag of de data die je wilt boeken beschikbaar zijn</string>
+
+    <string name="personmessaging_introduction_host1">Dit is het berichtenscherm, je kan </string>
+
+    <string name="street_not_in_city_village">de straat die hebt geselecteert matcht niet met de stad/dorp die je gekozen hebt</string>
+
+    <string name="personmessaging_introduction_host2"> berichten en toestemming geven voor het maken van een boeking door bovenaan op \'geef toestemming\' te drukken. Stel jezelf voor, wees vriendelijk en bespreek welke data beschikbaar zijn voor een boeking.</string>
+
+    <string name="log_out">Uitloggen</string>
+
+    <string name="are_you_sure">Weet je het zeker?</string>
+
+    <string name="yes_dialog">Ja</string>
+
+    <string name="no_dialog">Nee</string>
+
+    <string name="email_or_password_not_filled_in">e-mail of wachtwoord is niet ingevuld</string>
+
+    <string name="wrong_email_password">e-mail of wachtwoord is incorrect</string>
+
+    <string name="user_not_found">Gebruiker niet gevonden. Wellicht een spellingsfout in de e-mail box?</string>
+
+    <string name="city_changed">stad/dorp is wellicht veranderd</string>
+
+    <string name="street_name_reset">straatnaam is gereset</string>
+
+    <string name="logged_in">Welkom!</string>
+
+    <string name="data_could_not_be_send">de data kon niet worden verzonden naar onze servers, probeer het A.U.B. opnieuw</string>
+
+    <string name="registration_complete">Registratie voltooid</string>
+
+    <!--TODO: insert nieuwe datum van open maken platform-->
+
+    <string name="registration_complete1">Bedankt voor het registreren. We hebben meer gebruikers nodig om ervoor te zorgen dat het platform live kan gaan op _Datum_ om _tijd_ uur. \n\n Ken je mensen die je gebruik zou zien maken van ons platform? Vertel ze dan over ons via WhatsApp, e-mail, rooksignalen of door ze de link door te sturen die we voor je gekopieerd hebben! </string>
+
+    <string name="booking_country_not_available">Beschikbare locaties voor apartementen zijn momenteel beperkt tot (bepaalde staten binnen) de Verenigde Staten</string>
+
+    <string name="you_need_to_be_online">je moet een actieve internetverbinding hebben om gebruik te maken van StudentsBed</string>
+
+    <string name="log_in_unavailable">StudentsBed is nog niet geopend, om deze reden is de login momenteel niet beschikbaar</string>
+
+    <string name="email_invalid">e-mail adres bestaat niet</string>
+
+    <string name="hosting_unavailable">Op dit moment kan je alleen in (bepaalde staten in) de Verenigde Staten een apartement hosten. We laten je weten wanneer het hosten van apartementen beschikbaar is</string>
+
+    <string name="saving_image">Afbeelding aan het opslaan&#8230;</string>
+
+    <string name="preparing_card">Kaart aan het voorbereiden&#8230;</string>
+
+    <string name="no_storage_card">Geen opslagkaart gevonden</string>
+
+    <string name="not_enough_space">Niet genoeg geheugen</string>
+
+    <string name="somethig_went_wrong_file_not_found">Er ging iets fout</string>
+
+    <string name="ratings">ratings</string>
+
+    <string name="ok">Oké</string>
+
+    <string name="warning_received1">Volgens één van je voormalige hosts heb je jezelf niet goed gedragen tijdens je verblijf, om deze reden heb je een waarschuwing ontvangen. Je hebt nu in totaal </string>
+
+    <string name="warning_received2"> waarschuwingen. Bij 3 waarschuwingen zal je account 6 maanden geblokkeerd worden</string>
+
+    <string name="loading">Aan het laden&#8230;</string>
+
+    <string name="num_days_left">Aantal resterende onderverhuur nachten voor dit jaar</string>
+
+    <string name="feedback">Bedankt voor je feedback!</string>
+
+    <string name="feedback2">Bedankt voor je feedback, de gebruiker in kwestie heeft een waarschuwing ontvangen</string>
+
+    <string name="stay_ended_host">verblijf in je woning is nu voorbij. Heeft minstens één van de gasten zich op grote schaal niet passend gedragen?</string>
+
+    <string name="enter_iban">We hebben je IBAN nummer nodig zodat we je gemaakte verdiensten met onderverhuren kunnen uitbetalen. Jouw IBAN nummer zal alleen met StudentsBed worden gedeeld en niet met andere gebruikers, derde partijen, etc. \n\n vul je nummer voluit in \n\n Voorbeeld:  NL44RABO0123456789</string>
+
+    <string name="iban_added">Bedankt! Je IBAN nummer is toegevoed aan je account</string>
+
+    <string name="later">Later</string>
+
+    <string name="proceed">Doorgaan</string>
+
+    <string name="remove_hoststatus">Verwijder host status</string>
+
+    <string name="add_hoststatus_text">Wil je de gegevens van je apartement toevoegen?</string>
+
+    <string name="host_status_removed">Host status is verwijdert!</string>
+
+    <string name="stay_ended_guest1">Je verblijf bij </string>
+    <string name="stay_ended_guest2"> is tot een einde gekomen. Je kan je verblijf nu een beoordeling tussen de 1 en 5 sterren geven en je kan beoordelen hoe </string>
+    <string name="stay_ended_guest3">je heeft behandeld tijdens je verblijf</string>
+
+    <string name="ratings_submitted">Bedankt! De gebruiker heeft je beoordelingen ontvangen</string>
+
+    <string name="hosting_not_available">Het is momenteel niet mogelijk om een apartement te onderverhuren in jouw land of staat. We verzoeken je om terug te gaan en je aanmelding te herstarten als normale gebruiker</string>
+
+    <string name="save2">opslaan</string>
+
+    <string name="data_changed">data is veranderd!</string>
+
+    <string name="function_will_be_added">deze functie zal in een latere versie toegevoegd worden</string>
+
+    <string name="loading_bug">Er is een bug in de applicatie die er soms voor zorgt dat dit scherm niet verdwijnt, zelfs als alle data geladen is. Echter kan een trage internetconnectie ook een reden zijn dat dit scherm niet verdwijnt. Als je denkt dat de bug nu actief is verzoeken we je om de app te herstarten, wanneer je dit doet zal het probleem hoogstwaarschijnlijk verholpen worden (Deze bug zal in een latere versie uit de applicatie gehaald worden)</string>
+
+    <string name="booking_completed">Je boeking is gemaakt.</string>
+
+    <string name="booking_completed2">Veel plezier in </string>
+
+    <string name="congratulations2">Gefeliciteerd!</string>
+
+    <string name="tripadvisor">Plan je trip met TripAdvisor</string>
+
+    <string name="iban_in_use">Dit IBAN nummer is al in gebruik</string>
+
+    <string name="subletting_room">Ik ga een kamer in mijn woning onderverhuren</string>
+
+    <string name="subletting_apartement">Ik ga mijn hele woning onderverhuren</string>
+
+    <string name="wants_to_book1">wilt jouw apartement boeken beginnend op</string>
+
+    <string name="wants_to_book2">voor</string>
+
+    <string name="wants_to_book3">nachten. Je gast zal aankomen tussen</string>
+
+    <string name="wants_to_book4">Wil je deze boeking accepteren? \n\n klik op één van de vakjes en klik vervolgens op \'Ja\' om verder te gaan</string>
+
+    <string name="choose_textbox">Gelieve de app opnieuw op te starten en een vakje te selecteren voordat je \'Ja\' indrukt</string>
+
+    <string name="booking_confirmed">De aanvraag voor de boeking is geacepteerd, je ontvangt van ons een geldtransactie wanneer de gast ons voor zijn/haar boeking heeft betaalt en het verblijf is geëindigd</string>
+
+    <string name="booking_declined">Aanvraag boeking is afgewezen</string>
+
+    <string name="proceed2">ga verder</string>
+
+    <string name="booking_accepted">heeft de aanvraag voor je boeking geacepteerd. Klik op \'ga verder\' om het boekingsprocess voort te stellen.</string>
+
+    <string name="booking_completed3">Je boeking is voltooid. Veel plezier in</string>
+
+    <string name="booking_request_completed"> is gevraagd om voor zijn/haar boeking te betalen. Hij/zij zal in je apartement verblijven beginnend op</string>
+
+    <string name="booking_request_completed2">en zal</string>
+
+    <string name="okay">Oké</string>
+
+    <string name="booking_request_completed3">nachten bij je doorbrengen. Heeft hij/zij het benodigde geldbedrag al op je rekekning gestort? \n\n als je op ja drukt heb je aan ons </string>
+
+    <string name="booking_request_completed4">tegoed in de toekomst, het IBAN nummer waarop dit geld gestort dient te worden zal in de nabije toekomst bekend gemaakt worden. Indien je dit geld niet stort binnen 1 maand dat we je vertellen dat je dit moet doenn zal je account verwijdert worden en zullen verschillende andere maatregelen getroffen worden</string>
+
+    <string name="regulations">Bepaalde onderverhuur wetten zijn van toepassing op het onderverhuren van een ruimte in</string>
+
+    <string name="regulations2">. Om te voorkomen dat je heftige boetes ontvangt raden wij je sterk aan om de onderstaande op de onderstaande link te klikken, deze verwijst je door naar de onderverhuur wetten in jouw stad/regio</string>
+
+    <string name="no_listings_found">Geen listings gevonden in dit gebied. Wellicht heb je de stad/dorp indirect geselecteerd?</string>
+
+    <string name="UID_not_retrieved">Gebruiker ID kon niet worden gelezen</string>
+
+    <string name="booking_values_not_retrieved">Boeking data kon niet opgehaald worden, probeer het later nog eens</string>
+
+    <string name="account_blocked">Je account is geblokeerd omdat je 3 of meer waarschuwingen hebt ontvangen voor ongepast gedrag. Je kan je account weer gebruiken in</string>
+
+    <string name="january">januari</string>
+
+    <string name="february">februari</string>
+
+    <string name="march">maart</string>
+
+    <string name="april">april</string>
+
+    <string name="may">mei</string>
+
+    <string name="june">juni</string>
+
+    <string name="july">july</string>
+
+    <string name="august">augustus</string>
+
+    <string name="september">september</string>
+
+    <string name="october">oktober</string>
+
+    <string name="november">november</string>
+
+    <string name="december">december</string>
+
+    <string name="account_deleted">Aanvraag voor account verwijdering is verwerkt. We zullen al je data zo spoedig mogelijk Van ons platform verwijderen</string>
+
+    <string name="apartement_can_not_be_booked">Dit apartement kan niet meer geboekt worden voor dit jaar</string>
+
+    <string name="netherlands">Nederland</string>
+
+    <string name="cannot_be_booked">Dit apartement kan niet meer geboekt worden</string>
+
+    <string name="please_scroll">We verzoeken je, indien nodig, naar beneden te scrollen zodat je alle velden kan zien die ingevult dienen te worden</string>
+
+    <string name="city_select_issue">We verzoeken je vriendelijk om je systeemtaal te veranderen naar Engels totdat je registratie voltooid is en te controleren of de naam van het dorp/stad dat je gekozen hebt wordt weergegeven in de Engelse taal, anders werkt de app niet. Dit probleem zal in de toekomst opgelost worden</string>
+
+    <string name="thanks_booking">Bedankt voor het maken van je boeking! We stellen je op de hoogte wanneer de host de aanvraag van je boeking heeft goedgekeurd</string>
+
+    <string name="could_not_connect_gp">Kan niet verbinden met Google Play Services</string>
+
+    <string name="select_city_village">Selecteer een stad of dorp door op het onderstaande icoon te drukken \n\n (Wanneer je een stad/dorp wilt selecteren, selecteer dan de stad/dorp direct en niet een locatie of adres in deze stad/dorp, wanneer je dit doet zul je geen listings kunnen vinden)</string>
+
+    <string name="note_place_selection">Wanneer je het \'Stad/Dorp\' veld gebruikt verzoeken we je om expliciet een stad/dorp te kiezen en niet een locatie of adres in deze stad/dorp, wanneer je dit doet zal niemand je apartement kunnen vinden</string>
+
+    <string name="note_place_selection2">Wanneer je het \'Stad/Dorp\' veld gebruikt verzoeken we je om expliciet een stad/dorp te kiezen en niet een locatie of adres in deze stad/dorp, wanneer je dit doet zal niemand je apartement kunnen vinden</string>
+
+    <string name="one_rating">rating</string>
+
+    <string name="under_construction">StudentsBed is momenteel onder constructie, bezoek onze website voor meer info</string>
+
+    <string name="please_update">We verzoeken je om StudentsBed te updaten naar de meest recente versie om verder te kunnen gaan</string>
+
+    <string name="password_length">je wachtwoord moet minstens 8 karakters bevatten</string>
+
+    <string name="scroll_down_edit_apartement">scroll naar benenden en klik op de \'opslaan\' knop om de aangepaste gegevens op te slaan</string>
+
+    <string name="info_not_loaded">info kon niet opgehaald worden, probeer het later opnieuw</string>
+
+    <string name="error_unknown">Onbekende error ontvangen, start de app opnieuw op om potentiële problemen te verhelpen</string>
+
+    <string name="nights_not_retrieved">Aantal nachten kon niet worden opgehaald, we verzoeken je om terug te gaan en het aantal nachten opnieuw te selecteren</string>
+
+    <string name="booking_proccessed">je boeking is verwerkt. We stellen je op de hoogte wanneer de host je boekingsaanvraag heeft geaccepteerd</string>
+
+    <string name="deposit_money">(We raden je sterk aan om een screenshot te maken van dit scherm, je kan dit scherm maar één keer bezoeken) gelieve het bovenstaande bedrag te storten op het rekeningnummer</string>
+
+    <!--TODO: NIEUW EMAIL AANPASSEN!!!!-->
+
+    <string name="deposit_money2">\n\n gelieve je volledige naam en transactie nummer welke boven staat aangegeven te vermelden in de beschrijving van de geldoverdracht. Maak je een betaling vanuit een rekening in België of een ander SEPA-Europa land? In dit geval raden we je aan op te zoeken hoe je vanuit jouw bank een geldoverdracht kan maken binnen de EU, meestal kan dit process in een paar klikken gestart worden. \n\n Wanneer de host je storting opmerkt kan hij/zij de boeking officieel maken. Heb je problemen met je betaling en/of boeking? stuur een e-mail naar studentscouchnl@gmail.com en we staan je zo snel mogelijk te hulp. \n\n je verblijft in: </string>
+
+    <string name="transaction_id">(transactie nummer)</string>
+
+    <!--TODO: NIEUW EMAIL AANPASSEN!!!!-->
+
+    <string name="could_not_load_data">Data voor recentelijk bevestigde boeking kon niet opgehaald worden. Gelieve een e-mail te sturen naar studentscouchnl@gmail.com zodat wij kunnen proberen dit probleem op te lossen</string>
+
+    <string name="iban_not_added">Dit apartement kan momenteel niet geboekt worden. Probeer het een aantal dagen later opnieuw</string>
+
+    <string name="platform_opens_soon">Het platform zal binnenkort volledig open gaan, sommige hosts moeten nog bepaalde gegevens toevoegen</string>
+
+    <string name="understood">Begrepen</string>
+
+    <string name="eight_to_eleven_ninetyfive">8:00 - 11:59</string>
+
+    <string name="twelve_to_five_fiftynine">12:00 - 16:59</string>
+
+    <string name="five_to_ten">17:00 - 22:00</string>
+
+    <string name="between_eight_eleven">8:00 en 11:59 uur.</string>
+
+    <string name="between_twelve_four">12:00 en 16:59 uur.</string>
+
+    <string name="between_five_ten">17:00 en 22:00 uur.</string>
+
+    <string name="time_of_arrival">Tijd van aankomst</string>
+
+    <string name="booking_accepted_error">Error bij ophalen van data voor recentelijk geaccepteerde boeking</string>
+
+    <string name="bookingaccepted3_text_screenshot">(Neem A.U.B. Een screenshot van dit scherm)</string>
+
+    <string name="bookingaccepted3_text1">We hebben bevestigt dat je voor één van je boekingen betaalt hebt, deze is nu officieel. Je verblijft in</string>
+
+    <string name="bookingaccepted3_text1_host">Een gebruiker heeft betaalt voor één van je boekingen, deze is nu officieel.</string>
+
+    <string name="bookingaccepted3_text2_host">zal bij je verblijven begginend op</string>
+
+    <string name="bookingaccepted3_text2">beginnend op</string>
+
+    <string name="bookingaccepted3_text3_host">, Het verblijf duurt</string>
+
+    <string name="bookingaccepted3_text3">voor een periode van</string>
+
+    <string name="bookingaccepted3_text4">nachten. Je gast zal aankomen tussen</string>
+
+    <string name="bookingaccepted3_text4_host">nachten. je wordt verwacht aan te komen tussen</string>
+
+    <string name="camera_unavailable">kan camera niet gebruiken, gelieve een foto uit de gallerij te kiezen</string>
+
+    <string name="booking_canceled_nights">Je boeking is geannuleerd omdat je onderverhuurdagen voor dit jaar op zijn</string>
+
+    <string name="reselect_field">we verzoeken je om dit veld opnieuw te selecteren na het toestaan van de locatievoorzieningen</string>
+
+    <string name="booking_official">Bedankt! Je boeking is nu officieel bevestigt</string>
+
+    <string name="file_size_too_big">bestand is te groot, de bestandsgrootte moet kleiner dan 60MB zijn</string>
+
+    <string name="could_not_connect_google_play_services">Kan geen verbinding maken met Google Play Services</string>
+
+    <string name="dutch_date_ordering"> </string>
+
+    <string name="unlocked_countries_unavailable">kon bepaalde server data niet ophalen</string>
+
+    <string name="i_understand">Begrepen</string>
+
+    <string name="report_a_bug">Vermeld een bug</string>
+    <string name="go_to_maps">Ga naar Google Maps</string>
+    <string name="profile">Profiel</string>
+    <string name="apartement">Apartement</string>
+    <string name="max_people">Max. personen per verblijf</string>
+
+    <string name="send_an_email">stuur een e-mail</string>
+
+    <string name="found_a_bug">Heb je een bug gevonden? Stuur ons een e-mail met meer informatie en we bekijken het probleem</string>
+
+    <string name="subletting_rules_2">BELANGRIJK: Lees ons onderverhuur-wetgeving document zorgvuldig door voordat je boekingen gaat accepteren.\n\n zorg er ook voor dat je jouw huurcontract raadpleegt om te achterhalen of onderverhuren toegestaan is in jouw situatie. Indien dit niet het geval is, adviseren we je om contact op te nemen met je huisbaas middels een motivatie en uitleg . Het onderverhuren van ruimtes zonder toestemming van de betreffende eigenaar hiervan is verboden</string>
+
+    <string name="no_pdf_found">Gelieve een applicatie te downloaden waarmee pdf bestanden geopend kunnen worden</string>
+
+    <string name="tax_and_service_costs_info">\n\nStudentsBed zal 3% van de gemaakte omzet van deze boeking inhouden als servicekosten, we raden je ook aan om het tarief voor toerismebelasting van je lokale gemeente te achterhalen</string>
+
+    <string name="room_sublet">Je zal in een kamer binnen het apartement verblijven</string>
+
+    <string name="eu_block_active">StudentsBed is tijdelijk niet beschikbaar in jouw land</string>
+
+    <string name="temp_image_generated">Deze afbeelding is gegenereerd voor je registratie met StudentsBed en kan nu worden verwijdert</string>
+
+    <string name="bookingaccepted3_text1_guest">We hebben een betaling voor één van je boekingen opgemerkt, deze is nu officieel bevestigt. Je zal verblijven bij</string>
+
+    <string name="at">bij</string>
+
+    <string name="bookingaccepted3_text3_guest">beginnend op</string>
+
+    <string name="subletting_regulations">wetgeving onderverhuren</string>
+
+    <string name="recent_booking_cancelled">een recente boeking is geanulleerd omdat je geen onderverhuur dagen meer over hebt</string>
+
+    <string name="screenshot_dialog">(Gelieve een screenshot te nemen van dit venster) \n\n</string>
+
+    <string name="desc_hint">apartment located near (...), taking a vacation from (...) to (...), is/is not available during weekdays and/or outside holidays, etc</string>
+
+    <string name="crop_image_activity_title"></string>
+        <string name="crop_image_menu_rotate_left">Tegen de klok in draaien</string>
+        <string name="crop_image_menu_rotate_right">Draaien</string>
+        <string name="crop_image_menu_crop">Bijsnijden</string>
+        <string name="crop_image_menu_flip">Spiegelen</string>
+        <string name="crop_image_menu_flip_horizontally">Horizontaal spiegelen</string>
+        <string name="crop_image_menu_flip_vertically">Verticaal spiegelen</string>
+
+        <string name="pick_image_intent_chooser_title">Bron selecteren</string>
+
+        <string name="crop_image_activity_no_permissions">Wordt geannuleerd, vereiste machtigingen zijn niet toegekend</string>
+
+    <string-array name="city_names">
+
+        <item>Amsterdam</item>
+        <item>Rotterdam</item>
+        <item>Utrecht</item>
+        <item>Parijs</item>
+        <item>Londen</item>
+        <item>Antwerpen</item>
+        <item>Brussel</item>
+
+
+    </string-array>
+
+
+</resources>

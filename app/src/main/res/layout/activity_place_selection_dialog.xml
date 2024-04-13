@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/image_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="5sp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/selection_wrong_2_converted" />
+
+                <ImageView
+                    android:id="@+id/image_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/selection_wrong_1_converted" />
+
+                <ImageView
+                    android:id="@+id/image_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5sp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/right_selection_correct" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descripton_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/custom_dialog_accepted_2_description_textView_margin_leftRight"
+                android:layout_marginTop="@dimen/activity_place_selection_dialog_descripton_textView_margin_top"
+                android:layout_marginRight="@dimen/custom_dialog_accepted_2_description_textView_margin_leftRight"
+                android:layout_marginBottom="@dimen/custom_dialog_accepted_2_description_textView_margin_bottom"
+                android:gravity="center"
+                android:text="@string/note_place_selection"
+                android:textColor="@color/textColorTertiary"
+                android:textSize="@dimen/custom_dialog_accepted_2_description_textView_textSize" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_place_selection_dialog_relativeLayout_height"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/ok_button_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/custom_dialog_accepted_2_ok_button_layout_marginLeft"
+                    android:layout_marginTop="@dimen/custom_dialog_accepted_2_ok_button_layout_margin_top"
+                    android:background="@color/buttonColorTertiary"
+                    android:text="@string/go_to_maps"
+                    android:textColor="@color/gmaps_textColor"
+                    android:textSize="@dimen/custom_dialog_accepted_2_ok_button_layout_textSize">
+
+                    <TextView
+                        android:id="@+id/ok_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_dialog_accepted_2_ok_textView_height"
+                        android:layout_marginStart="@dimen/custom_dialog_accepted_2_ok_textView_Left"
+                        android:layout_marginLeft="@dimen/custom_dialog_accepted_2_ok_textView_Left"
+                        android:layout_marginEnd="@dimen/custom_dialog_accepted_2_ok_textView_Left"
+                        android:layout_marginRight="@dimen/custom_dialog_accepted_2_ok_textView_Left"
+                        android:gravity="center"
+                        android:text="@string/i_understand"
+                        android:textColor="@color/buttonColorTertiaryTextColor"
+                        android:textSize="@dimen/custom_dialog_accepted2_ok_textView_textSize" />
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <View
+        android:id="@+id/bottom_line_book_now_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_line_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/custom_dialog_accepted2_bottom_layout_margin_top"
+        android:background="@color/bottom_line_color" />
+
+</LinearLayout>

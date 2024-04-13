@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/custom_dialog_regulations_margin">
+
+    <TextView
+        android:id="@+id/descripton_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dialog_regulations_description_textView_margin_top"
+        android:layout_marginBottom="@dimen/custom_dialog_regulations_description_textView_margin_bottom"
+        android:layout_marginLeft="@dimen/custom_dialog_regulations_description_textView_margin_leftRight"
+        android:layout_marginRight="@dimen/custom_dialog_regulations_description_textView_margin_leftRight"
+        android:gravity="center"
+        android:text="oof"
+        android:textColor="@color/textColorTertiary"
+        android:textSize="@dimen/custom_dialog_regulations_description_textView_textSize" />
+
+    <TextView
+        android:id="@+id/link_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/custom_dialog_regulations_link_textView_margin"
+        android:gravity="center"
+        android:textColor="@color/linkColor" />
+
+
+    <View
+        android:id="@+id/bottom_line_book_now_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_line_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/custom_dialog_regulations_bottom_line_book_now_layout_margin_top"
+        android:background="@color/bottom_line_color" />
+
+</LinearLayout>

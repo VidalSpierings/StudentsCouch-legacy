@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00f576</color>
+    <color name="colorPrimaryDark">#00e06c</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="linkColor">#CAE4F1</color>
+    <color name="bottom_line_color">#000000</color>
+    <color name="person_rating_color">#ff4081</color>
+    <color name="progressbar_color">#ff4081</color>
+    <color name="gmaps_textColor">#1EA362</color>
+    <color name="main_background">#06f97a</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorSecondary">#ffffff</color>
+    <color name="textColorTertiary">#000066</color>
+    <color name="buttonClickedFilter">#000030</color>
+    <color name="imageViewColorFilter">#D3D3D3</color>
+    <color name="notificationColorExistingPerson">#000066</color>
+    <color name="notificationColorNewPerson">#ff4081</color>
+    <color name="buttonClickedColor">#80000000</color>
+    <color name="messagingToolbarColor">#FFFFFF</color>
+    <color name="buttonColorTertiary">#000066</color>
+    <color name="buttonColorTertiaryTextColor">#FFFFFF</color>
+    <color name="introduction_button_clicked">#0dde68</color>
+    <color name="color2">#6DB84E</color>
+    <color name="item_background">#FFFFFF</color>
+    <color name="tab_layout_background">#FFFFFF</color>
+    <color name="transparent_main_background">#8000f576</color>
+    <color name="checkbox_pressed_color">#D3D3D3</color>
+    <color name="checkbox_color">#FFFFFF</color>
+    <color name="price_color">#009900</color>
+    <color name="error_message_color">#FF0000</color>
+    <color name="delete_account_color">#FF0000</color>
+    <color name="heart_like_color">#FF0707</color>
+    <color name="heart_like_border_color">#89969D</color>
+    <color name="spinner_background">#FFFFFF</color>
+    <color name="half_transparent_color">#80000000</color>
+
+</resources>

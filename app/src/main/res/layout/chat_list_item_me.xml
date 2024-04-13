@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/message_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="User"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/message_user"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/message_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorSecondary"
+            android:id="@+id/message_content"
+            android:layout_gravity="center"
+            android:text="they did surgery on a grape"
+            android:layout_margin="15sp"
+            android:textSize="15sp"/>
+
+    </FrameLayout>
+
+</RelativeLayout>
